@@ -7,8 +7,8 @@
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "GlobeNomad Visa Dataset — https://globenomad.com",
   "null_means": "null means the government has not published this rule. It never means \"no\".",
-  "last_verified_at": "2026-07-26",
-  "record_count": 44,
+  "last_verified_at": "2026-08-13",
+  "record_count": 45,
   "records": [
     {
       "slug": "albania",
@@ -600,7 +600,7 @@
       "apply_from_abroad": true,
       "apply_method": "online",
       "logistics_note": "Filed online through the Cancillería. On the income bar, note that our USD figure and the ones circulating elsewhere don't agree: the requirement is legally pegged to 3× the Colombian minimum wage, and published conversions for 2026 range from roughly $750 to $1,400 a month depending on which wage figure and exchange rate is used. Work from the SMMLV multiple, not from anyone's dollar conversion.",
-      "official_url": "https://www.cancilleria.gov.co/tramites_servicios/visa",
+      "official_url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
       "verified_at": "2026-07-26"
     },
     {
@@ -1050,7 +1050,7 @@
       "apply_from_abroad": null,
       "apply_method": "",
       "logistics_note": "",
-      "official_url": "https://www.migracion.gob.sv",
+      "official_url": "https://migracion.gob.sv/",
       "verified_at": "2026-07-26"
     },
     {
@@ -1111,7 +1111,7 @@
       "apply_from_abroad": true,
       "apply_method": "consulate",
       "logistics_note": "Filed at an Estonian embassy or consulate. Two things to plan for. The income test looks backwards over six months rather than at a single payslip, so a recent jump in earnings won't carry an application on its own. And the threshold itself is genuinely disputed — 2026 sources cite figures from €3,504 to €4,500 per month, so confirm the current number with the Police and Border Guard Board before assembling statements.",
-      "official_url": "https://www.politsei.ee/en/instructions/applying-for-a-long-stay-d-visa/digital-nomad-visa",
+      "official_url": "https://www.politsei.ee/en/instructions/visa-and-extending-period-of-stay/long-term-visa",
       "verified_at": "2026-07-26"
     },
     {
@@ -1172,7 +1172,7 @@
       "apply_from_abroad": true,
       "apply_method": "consulate",
       "logistics_note": "This changed in February 2026 and older guides are now wrong: you must obtain the national (Type D) visa at a Greek consulate before travelling. Applying from inside Greece as a tourist was abolished by Law 5275/2026. If a guide tells you to fly in and sort it locally, it predates the change.",
-      "official_url": "https://migration.gov.gr/en/digital-nomads/",
+      "official_url": "https://migration.gov.gr/en/gas/aitoyntes-kai-dikaioychoi/adeies-diamonis/",
       "verified_at": "2026-07-26"
     },
     {
@@ -1361,7 +1361,7 @@
       "apply_from_abroad": true,
       "apply_method": "consulate",
       "logistics_note": "Visa at the consulate first, then apply for the permesso di soggiorno within eight days of arriving in Italy. That eight-day window is the step people miss.",
-      "official_url": "https://vistoperitalia.esteri.it/home/en",
+      "official_url": "https://vistoperitalia.esteri.it/",
       "verified_at": "2026-07-26"
     },
     {
@@ -2277,7 +2277,7 @@
       "apply_from_abroad": null,
       "apply_method": "",
       "logistics_note": "",
-      "official_url": "https://welcome.mup.gov.rs/eng",
+      "official_url": "https://welcometoserbia.gov.rs/digital-nomads-in-serbia",
       "verified_at": "2026-07-26"
     },
     {
@@ -2804,7 +2804,7 @@
       "apply_from_abroad": true,
       "apply_method": "online",
       "logistics_note": "Filed online through the Virtual Working Programme. You will need UAE-valid health insurance in place, and the income evidence is checked against bank statements rather than a contract alone.",
-      "official_url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/getting-a-residence-visa-for-working-remotely",
+      "official_url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas",
       "verified_at": "2026-07-26"
     },
     {
@@ -2872,6 +2872,76 @@
       "logistics_note": "",
       "official_url": "https://www.gub.uy/ministerio-interior/direccion-nacional-migracion",
       "verified_at": "2026-07-26"
+    },
+    {
+      "slug": "vietnam",
+      "country": "Vietnam",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/vietnam",
+      "visa_name": "No nomad or retirement visa",
+      "program_status": "none",
+      "summary": "Vietnam has no digital nomad visa and no retirement visa, and as of 2026 neither is close to existing — a ten-year 'golden visa' was proposed in April 2025 and has not been enacted. That matters because a lot of people are looking for one: searches for a Vietnamese retirement visa run into the hundreds every month and every result is either an agency selling something else or a guide describing a visa that was never created. What people actually do is live here on repeated 90-day e-visas, which is legal and cheap and is not residence — you accrue no status, no path to permanence, and no protection if the rules change. Anyone offering you a Vietnamese retirement visa is selling you a different product under that name.",
+      "min_income_usd": null,
+      "income_original": "",
+      "cost_usd": 50,
+      "max_stay_months": 3,
+      "processing_time": "3–5 working days for the e-visa",
+      "requirements": [
+        "Status check (verified August 2026): Vietnam operates no digital nomad visa and no retirement visa. There is no application to make and no income threshold to meet, because neither category exists",
+        "What does exist: a 90-day e-visa, single or multiple entry, applied for online at the government portal — roughly USD 25 single-entry and USD 50 multiple-entry",
+        "Passport valid at least six months beyond entry, a passport photo and a scan of the photo page",
+        "A Temporary Residence Card is the only route to actual residence, and it is granted on a separate basis — employment with a work permit, investment, or marriage to a Vietnamese citizen. Remote work for foreign clients is not one of the bases",
+        "Working remotely for foreign employers while on an e-visa sits in a grey area Vietnam has not formally addressed. It is widely done and not obviously permitted; we are not going to tell you it is fine when the government has not said so"
+      ],
+      "steps": [
+        "Apply for the 90-day e-visa at the official portal before travelling — it is the only route most remote workers will use, and it is issued in about 3–5 working days",
+        "Choose multiple entry if you intend to leave and return; single entry ends the moment you cross the border out",
+        "Plan for the reset: at 90 days you leave and re-enter on a fresh e-visa. Budget the flights and accept that entry is always at an officer's discretion",
+        "If you want real residence rather than repeated visits, work backwards from the Temporary Residence Card bases — a work permit through a Vietnamese employer, an investment, or marriage. There is no remote-work route to a TRC",
+        "Track your days. Tax residency starts at 183 days in a 12-month period, and repeated e-visas make it easy to cross without noticing"
+      ],
+      "faqs": [
+        {
+          "question": "Does Vietnam have a retirement visa?",
+          "answer": "No. Vietnam has never operated a retirement visa, and there is no announced plan to create one. If a site is walking you through 'Vietnam retirement visa requirements', it is describing something that does not exist — usually to sell you an agency service for a 90-day e-visa or a Temporary Residence Card you probably don't qualify for. Retirees who live in Vietnam do it on repeated e-visas, or on a TRC obtained through marriage or investment."
+        },
+        {
+          "question": "Is there a Vietnam digital nomad visa?",
+          "answer": "No. Unlike Thailand, Indonesia, Japan, South Korea, Taiwan and Malaysia, Vietnam has no visa category built for remote workers. A ten-year golden visa was proposed in April 2025; as of 2026 it has not been enacted, and a proposal is not a visa. The practical route is the 90-day e-visa, repeated."
+        },
+        {
+          "question": "Can I just keep renewing the 90-day e-visa?",
+          "answer": "In practice many people do, by leaving and re-entering. Understand what you are choosing: each entry is discretionary, you accumulate no residence status, there is no path to permanence, and a rule change can end the arrangement with no notice and no grandfathering. It is a way to be in Vietnam. It is not a way to move to Vietnam."
+        },
+        {
+          "question": "Will I pay tax in Vietnam?",
+          "answer": "If you are present 183 days or more in a 12-month period you are generally a Vietnamese tax resident, and residents are taxed on worldwide income at progressive rates. Repeated 90-day entries make it easy to cross that line without noticing. Your home country may tax you regardless — US citizens are taxed on worldwide income wherever they live. Take advice against your own treaty position before you cross 183 days, not after."
+        },
+        {
+          "question": "Where should I look instead?",
+          "answer": "If a formal long-stay route is what you need, Thailand, Malaysia, Indonesia, Japan, South Korea, Taiwan and Sri Lanka all operate one, and we hold verified records for each. Thailand in particular has both a five-year remote-work visa and a one-year retirement route, so it answers both of the questions Vietnam cannot."
+        }
+      ],
+      "renewable": false,
+      "max_total_years": null,
+      "pr_path": false,
+      "pr_after_years": null,
+      "citizenship_path": false,
+      "citizenship_after_years": null,
+      "renewal_note": "There is nothing to renew, because there is no long-stay permission to hold. The 90-day e-visa is not extended from inside the country in the ordinary case — you leave and apply again. Time spent on repeated e-visas counts toward nothing: not residence, not permanent residence, not naturalisation. That is the honest difference between Vietnam and every other country in this dataset with an open route.",
+      "tax_residency_days": 183,
+      "foreign_income_taxed": true,
+      "special_tax_regime": false,
+      "tax_note": "183 days in a 12-month period, and note that it is a rolling 12 months rather than a calendar year — which is stricter than Thailand's 180-day calendar-year test and catches people who assume the clock resets in January. Vietnamese tax residents are taxable on worldwide income at progressive rates. The trap specific to this country is structural: the only realistic way to stay long-term is repeated 90-day entries, and repeated 90-day entries are an efficient way to accumulate 183 days without ever making a decision about it.",
+      "dependents_allowed": null,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "Not applicable in the usual sense — there is no long-stay visa to add dependants to. Each person travels on their own e-visa. Marriage to a Vietnamese citizen is one of the bases for a Temporary Residence Card, which is a different application with its own conditions.",
+      "apply_from_abroad": true,
+      "apply_method": "online",
+      "logistics_note": "The e-visa is applied for online at the government portal and issued in about 3–5 working days; roughly USD 25 single-entry, USD 50 multiple-entry. Use the official site — this is one of the most impersonated visa applications in the region, and the agency copies charge several times the government fee for the same form.",
+      "official_url": "https://evisa.gov.vn",
+      "verified_at": "2026-08-13"
     }
   ]
 }

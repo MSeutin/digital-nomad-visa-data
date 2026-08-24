@@ -1,3 +1,20 @@
+---
+license: cc-by-4.0
+pretty_name: Digital Nomad & Long-Stay Visa Dataset (45 countries, sourced & dated)
+language:
+  - en
+size_categories:
+  - n<1K
+tags:
+  - visa
+  - immigration
+  - digital-nomad
+  - remote-work
+  - expat
+  - government
+  - open-data
+---
+
 # GlobeNomad Visa Dataset
 
 Long-stay, remote-work and nomad visa records — one per country — each sourced to an official

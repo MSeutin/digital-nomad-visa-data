@@ -1,0 +1,79 @@
+name: sync-huggingface
+
+# Mirrors this repo to the Hugging Face dataset so the two never drift.
+#
+# GitHub is the source of truth; Hugging Face is a copy that follows it. That
+# direction is deliberate — the export is regenerated here by GlobeNomad's
+# cmd/export-dataset, so a change made on Hugging Face would be overwritten by
+# the next release anyway. Editing the card there is editing a build artefact.
+#
+# Why this exists: on 2026-08-24 the first listing went up by hand, and the
+# manual `hf upload` silently replaced Hugging Face's generated README —
+# taking the cc-by-4.0 licence metadata with it. The licence IS the link
+# mechanism (CC BY makes attribution a condition of use), so a copy that loses
+# it stops earning the thing the dataset was published to earn. A job that runs
+# on every push cannot forget.
+
+on:
+  push:
+    branches: [main]
+    # Only the files that actually ship. A README typo fix should sync; a
+    # change to this workflow should not trigger a dataset release.
+    paths:
+      - "data/**"
+      - "README.md"
+      - "SCHEMA.md"
+      - "LICENSE"
+  workflow_dispatch: {} # manual re-sync — use after rotating the token
+
+concurrency:
+  group: sync-huggingface
+  cancel-in-progress: true # only the newest commit matters; it contains the older ones
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the Hugging Face CLI
+        run: pip install --quiet "huggingface_hub[cli]"
+
+      # `hf upload` diffs before writing and skips unchanged files, so a push
+      # that touched one line does not rewrite the whole repo on the other end.
+      #
+      # ⚠️ The token must be FINE-GRAINED and scoped to write on this dataset
+      # only. An account-wide write token in CI can rewrite every repo the
+      # account owns, which is a much larger blast radius than this job needs.
+      - name: Upload to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::error::HF_TOKEN secret is not set — the mirror is NOT in sync"
+            exit 1
+          fi
+          hf upload globenomad/digital-nomad-visa-data . --repo-type=dataset
+
+      # The metadata header is what makes the dataset findable by licence and
+      # tag on Hugging Face, and `hf upload` only warns when it is missing —
+      # it does not fail. A warning in a log nobody opens is not a safeguard,
+      # so this asserts it instead. The exact regression from 2026-08-24.
+      - name: Verify the card still declares its licence
+        run: |
+          published=$(curl -fsSL https://huggingface.co/datasets/globenomad/digital-nomad-visa-data/raw/main/README.md)
+          if ! printf '%s' "$published" | head -n 1 | grep -q '^---$'; then
+            echo "::error::The published card has no YAML front matter — the licence and tags are gone"
+            exit 1
+          fi
+          if ! printf '%s' "$published" | grep -q '^license: cc-by-4.0$'; then
+            echo "::error::The published card no longer declares cc-by-4.0"
+            exit 1
+          fi
+          echo "Card metadata present: cc-by-4.0 declared."

@@ -1,6 +1,6 @@
 ---
 license: cc-by-4.0
-pretty_name: Digital Nomad & Long-Stay Visa Dataset (45 countries, sourced & dated)
+pretty_name: Digital Nomad & Long-Stay Visa Dataset (51 programmes, 46 countries, sourced & dated)
 language:
   - en
 size_categories:
@@ -17,8 +17,13 @@ tags:
 
 # GlobeNomad Visa Dataset
 
-Long-stay, remote-work and nomad visa records — one per country — each sourced to an official
-government page and carrying the date it was last checked.
+Long-stay, remote-work and nomad visa records — **one per programme** — each sourced to an
+official government page and carrying the date it was last checked.
+
+**A country may hold several records.** Thailand publishes four: the DTV, the education visa, the
+retirement route and the Non-B. Group by `country_slug`, not by `slug` — `slug` is the record key.
+See [`CHANGELOG.md`](CHANGELOG.md) if you are holding a file from before 2026-08-27, when this
+was one row per country.
 
 **Free to use, including commercially, under [CC BY 4.0](LICENSE). The only condition is
 attribution.**
@@ -51,9 +56,17 @@ never have to work out whether a missing key means an unknown answer or a droppe
 
 ## How it is verified
 
-Every figure is checked against the destination country's own government source — the immigration
-ministry, consulate or national visa portal that issues the permit — and that URL travels with the
-record in `official_url`.
+Every record carries the URL it was checked against, in `official_url`, and for most that is the
+issuing authority itself — the immigration ministry, consulate, e-visa portal or the programme's
+own government site.
+
+**It is not the issuing authority for every record, and the field tells you which.** Some
+governments publish nothing usable, and a few block automated reads outright: the Philippine
+EO 86 record is sourced to a law library because the government pages return 403, and a handful of
+programmes are documented only by a national tourism or investment board. Where that happens the
+record links what was actually read rather than a government URL that does not carry the figure —
+check `official_url` before citing a record as a government source. We would rather publish the
+substitution than imply a provenance the file does not have.
 
 - Records are re-checked at least once a year, and immediately when we learn a rule changed.
 - Where an official page is ambiguous or contradicts itself, a second reputable source is
@@ -71,8 +84,9 @@ Full method: <https://globenomad.com/how-we-verify>
   dataset is kept clear of them on purpose. Data you can cite has to be data nobody paid to shape.
 - **No images.** The country photography on the site is not covered by this licence — only the
   data is.
-- **No scraped third-party content.** Records are compiled from primary government sources, which
-  is why each one can carry a link you can check yourself.
+- **No scraped third-party content.** Records are compiled from official sources — primarily
+  government ones, and where none is usable, the best available published source, named in
+  `official_url` so you can judge it yourself. Nothing here is lifted from another visa site.
 
 ## Attribution
 

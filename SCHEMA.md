@@ -1,7 +1,7 @@
 # Schema — `data/visas.json`
 
-One UTF-8 JSON object. Top-level metadata, then `records`: an array with one object per country,
-sorted by `slug`.
+One UTF-8 JSON object. Top-level metadata, then `records`: an array with **one object per
+programme**, sorted by `slug`. A country may hold several — group by `country_slug`.
 
 **The one rule that matters:** `null` means the government has not published that rule. It never
 means "no". Every field below is always present on every record — a value is either populated or
@@ -26,23 +26,34 @@ List fields (`requirements`, `steps`, `faqs`) use `[]` for genuinely empty, neve
 - **`last_verified_at`** *(string, `YYYY-MM-DD`)* — the newest `verified_at` across all records.
   This is a property of the **data**, not of the build: it does not change when the file is
   regenerated without changes. For "when was this file built", use the git commit date.
-- **`record_count`** *(integer)* — number of objects in `records`.
+- **`record_count`** *(integer)* — number of objects in `records`. This is a count of
+  **programmes**, not countries; several records may share a `country_slug`.
 - **`records`** *(array)* — the records, sorted by `slug` ascending.
 
 ---
 
 ## Record — identity
 
-- **`slug`** *(string)* — stable URL-safe country identifier, e.g. `costa-rica`. The primary key;
-  it does not change when a programme is renamed or replaced.
+- **`slug`** *(string)* — stable URL-safe **record** identifier, e.g. `costa-rica` or
+  `thailand-education`. The primary key: unique across the file, and the last segment of
+  `page_url`. One country may hold several, one per programme.
+- **`country_slug`** *(string)* — stable URL-safe **country** identifier, e.g. `costa-rica`,
+  `thailand`. **Group by this, not by `slug`.** Not unique: Thailand's four records share it.
 - **`country`** *(string)* — country name in English, e.g. `Costa Rica`.
-- **`region`** *(string)* — broad grouping used for browsing, e.g. `Latin America`, `Europe`,
-  `Asia-Pacific`. Editorial, not a standards body's list.
+- **`region`** *(string)* — broad grouping used for browsing. Editorial, not a standards body's
+  list. The complete set of values in this file is `Africa`, `Americas`, `Asia`, `Europe`,
+  `Middle East`. (Before 2026-08-27 this field was documented with the examples `Latin America`
+  and `Asia-Pacific`, which have never been values — filtering on either returned nothing.)
 - **`page_url`** *(string)* — the human-readable page for this record on globenomad.com, with the
   sourcing and caveats written out. The natural citation target for a single country.
 
 ## Record — programme
 
+- **`programme_name`** *(string)* — a short label for the route within its country, e.g.
+  `Digital Nomad Visa (DTV)`, `Education Visa (ED)`. Present so a consumer can label a row without
+  parsing `slug`. Always populated, and equal to `visa_name` on countries holding a single record;
+  it differs only where a country runs several routes and each needs naming briefly. Never use it
+  to detect single-record countries — count `country_slug` instead.
 - **`visa_name`** *(string)* — the programme's own name, e.g. `D8 Digital Nomad Visa`. Where a
   country has no dedicated route, this describes what the record covers instead.
 - **`program_status`** *(string, enum)* — one of:
@@ -133,7 +144,14 @@ between them. These fields describe the destination's published position only.
 
 ## Stability
 
-- **`slug` is the primary key** and is treated as permanent.
+- **`slug` is the primary key** and is unique across the file.
+- **⚠ `slug` was redefined on 2026-08-27** — see [`CHANGELOG.md`](CHANGELOG.md). It was documented
+  here as a *country* identifier that "does not change when a programme is renamed or replaced".
+  The exporter had always written the record's page address into it, and the two agreed only
+  because every country held exactly one record. When Thailand's DTV moved to `/visa/thailand-nomad`
+  so `/visa/thailand` could list all four Thai routes, that promise broke: the row keyed
+  `"thailand"` in the 2026-08-24 file does not exist in this one. **`country_slug` is what `slug`
+  was documented to be**, and it is the field to key on if you were relying on that promise.
 - Fields are added, not renamed or repurposed. A consumer reading unknown fields as optional will
   not break on an update.
 - If a field must ever be withdrawn, it stays present as `null` rather than disappearing, so

@@ -1,20 +1,22 @@
 {
   "dataset": "GlobeNomad Visa Dataset",
-  "description": "Long-stay, remote-work and nomad visa records, one per country, each sourced to an official government page and carrying the date it was last checked.",
+  "description": "Long-stay, remote-work and nomad visa records, one per programme, each sourced to an official government page and carrying the date it was last checked.",
   "source": "https://globenomad.com/data",
   "method_url": "https://globenomad.com/how-we-verify",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "GlobeNomad Visa Dataset — https://globenomad.com",
   "null_means": "null means the government has not published this rule. It never means \"no\".",
-  "last_verified_at": "2026-08-13",
-  "record_count": 45,
+  "last_verified_at": "2026-08-27",
+  "record_count": 51,
   "records": [
     {
       "slug": "albania",
+      "country_slug": "albania",
       "country": "Albania",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/albania",
+      "programme_name": "Unique Permit (Digital Nomad)",
       "visa_name": "Unique Permit (Digital Nomad)",
       "program_status": "open",
       "summary": "Albania is one of Europe's cheapest and most underrated nomad bases — Adriatic and Ionian beaches, a fast-growing scene in Tirana, and a remarkably low cost of living. Its digital nomad route (a Type D visa plus a Unique Permit for 'digital mobile workers') has one of the lowest income bars on the continent, around $815/month, and can be renewed annually for up to five years. The application is fully online.",
@@ -79,9 +81,11 @@
     },
     {
       "slug": "antigua-and-barbuda",
+      "country_slug": "antigua-and-barbuda",
       "country": "Antigua and Barbuda",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/antigua-and-barbuda",
+      "programme_name": "Nomad Digital Residence",
       "visa_name": "Nomad Digital Residence",
       "program_status": "open",
       "summary": "Antigua and Barbuda offers 365 beaches and a relaxed Caribbean pace under one of the region's longer nomad visas — two full years. You'll need $50,000/year in income and a $1,500 fee, but there's no local income tax and approval is fast. A strong pick for a longer Caribbean stay, family included.",
@@ -145,9 +149,11 @@
     },
     {
       "slug": "argentina",
+      "country_slug": "argentina",
       "country": "Argentina",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/argentina",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Argentina gives remote workers a low-friction way to live in Buenos Aires and beyond — European-feeling cities, a strong café and food culture, and a cost of living that swings in your favour. There's no fixed income minimum: you show stable foreign earnings via a simple migration process you can do yourself. The trade-off is a shorter horizon than most — 180 days, extendable once to a year.",
@@ -213,9 +219,11 @@
     },
     {
       "slug": "bahamas",
+      "country_slug": "bahamas",
       "country": "Bahamas",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/bahamas",
+      "programme_name": "BEATS (Extended Access Travel Stay)",
       "visa_name": "BEATS (Extended Access Travel Stay)",
       "program_status": "open",
       "summary": "The Bahamas' BEATS program puts you on 700 islands of turquoise water within a short hop of the US east coast. There's no fixed income minimum — just proof you can support yourself — and approval is quick. The catch is cost: the Bahamas is expensive, with nomads typically spending several thousand a month. Renewable up to three years.",
@@ -278,9 +286,11 @@
     },
     {
       "slug": "barbados",
+      "country_slug": "barbados",
       "country": "Barbados",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/barbados",
+      "programme_name": "Welcome Stamp",
       "visa_name": "Welcome Stamp",
       "program_status": "open",
       "summary": "Barbados led the Caribbean nomad-visa wave with its Welcome Stamp — a full year on a famously friendly, English-speaking island of pink-sand beaches and solid infrastructure. The income bar is high ($50,000/year) and the fee steep ($2,000), but there's no local income tax and approval is fast. Best for established earners wanting Caribbean island life.",
@@ -344,9 +354,11 @@
     },
     {
       "slug": "brazil",
+      "country_slug": "brazil",
       "country": "Brazil",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/brazil",
+      "programme_name": "Digital Nomad Visa (VITEM XIV)",
       "visa_name": "Digital Nomad Visa (VITEM XIV)",
       "program_status": "open",
       "summary": "Brazil's VITEM XIV opens one of South America's biggest, most varied countries to remote workers — beaches, big cities, and a low cost of living outside the hotspots — at a modest $1,500/month income bar. The catch is paperwork: every foreign document must be apostilled, and that's the single most common reason applications stall. The visa is valid for one year and renewable for a second.",
@@ -412,9 +424,11 @@
     },
     {
       "slug": "cape-verde",
+      "country_slug": "cape-verde",
       "country": "Cape Verde",
       "region": "Africa",
       "page_url": "https://globenomad.com/visa/cape-verde",
+      "programme_name": "Remote Working Program",
       "visa_name": "Remote Working Program",
       "program_status": "open",
       "summary": "Cape Verde is an Atlantic island chain off West Africa — year-round warmth, beaches, and a relaxed Creole-Portuguese culture, in a timezone friendly to both Europe and the Americas. Its Remote Working Program is cheap and fully online, and unusually it asks for an average bank balance rather than a fixed salary. You get six months, renewable.",
@@ -480,9 +494,11 @@
     },
     {
       "slug": "cayman-islands",
+      "country_slug": "cayman-islands",
       "country": "Cayman Islands",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/cayman-islands",
+      "programme_name": "Global Citizen Concierge Program",
       "visa_name": "Global Citizen Concierge Program",
       "program_status": "closed",
       "summary": "The Cayman Islands ran one of the pandemic era's most exclusive nomad programs — the Global Citizen Concierge Program, a two-year stay for remote workers earning US$100,000+ — and then quietly closed it. As of 2026 it is not accepting applications, making Cayman one of several island programs (Bermuda's went the same way) to shut once tourism recovered. Remote workers can still visit on standard visitor entry; there is simply no dedicated nomad route anymore.",
@@ -544,9 +560,11 @@
     },
     {
       "slug": "colombia",
+      "country_slug": "colombia",
       "country": "Colombia",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/colombia",
+      "programme_name": "Digital Nomad Visa (Visa V)",
       "visa_name": "Digital Nomad Visa (Visa V)",
       "program_status": "open",
       "summary": "Colombia's nomad visa has the lowest income requirement of any major program — around three times the local minimum wage, roughly $1,400/month — for up to two years in Medellín's eternal spring, Bogotá's altitude, or the Caribbean coast. The application is online and decided in weeks.",
@@ -605,9 +623,11 @@
     },
     {
       "slug": "costa-rica",
+      "country_slug": "costa-rica",
       "country": "Costa Rica",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/costa-rica",
+      "programme_name": "Digital Nomad Visa (Estancia)",
       "visa_name": "Digital Nomad Visa (Estancia)",
       "program_status": "open",
       "summary": "Costa Rica wrote its nomad visa into law with real perks: foreign income is tax-exempt, your home driver's license stays valid, and your work equipment enters duty-free. Pura vida plus surf, jungle, and one of the most stable democracies in the Americas — for a $3,000/month income bar.",
@@ -666,9 +686,11 @@
     },
     {
       "slug": "croatia",
+      "country_slug": "croatia",
       "country": "Croatia",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/croatia",
+      "programme_name": "Digital Nomad Residence Permit",
       "visa_name": "Digital Nomad Residence Permit",
       "program_status": "open",
       "summary": "Croatia was one of Europe's first movers on nomad visas, and the package is solid: up to 18 months of Adriatic coastline, no tax on your foreign remote income while on the permit, and an application you can start online. The catch — it doesn't renew, so it suits a long stay rather than a settling plan.",
@@ -727,9 +749,11 @@
     },
     {
       "slug": "curacao",
+      "country_slug": "curacao",
       "country": "Curaçao",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/curacao",
+      "programme_name": "@HOME in Curaçao",
       "visa_name": "@HOME in Curaçao",
       "program_status": "open",
       "summary": "Curaçao blends Dutch-Caribbean culture, colorful Willemstad, and reliably sunny weather on the edge of the hurricane belt. Its @HOME program is fully online, moderately priced, and asks for around €2,600/month — and foreign income isn't taxed locally. You get six months, renewable once for a year total.",
@@ -794,9 +818,11 @@
     },
     {
       "slug": "cyprus",
+      "country_slug": "cyprus",
       "country": "Cyprus",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/cyprus",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Cyprus offers an English-friendly, sunny EU base with over 300 days of sunshine and a low-crime, low-cost lifestyle by Western-European standards. The Migration Department runs the scheme for non-EU remote workers, with a clear €3,500/month net income bar. The main catch is a hard cap on the number of permits issued, so it can close to new applicants — apply when the window is open.",
@@ -862,9 +888,11 @@
     },
     {
       "slug": "czechia",
+      "country_slug": "czechia",
       "country": "Czechia",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/czechia",
+      "programme_name": "Digital Nomad Programme",
       "visa_name": "Digital Nomad Programme",
       "program_status": "open",
       "summary": "Czechia's nomad route is narrower than most: a fast-tracked programme for IT professionals and freelancers from a shortlist of countries, layered on the classic long-stay framework Prague's expats have used for years. If you qualify, you get one of Europe's best cities at half the Western European burn rate.",
@@ -923,9 +951,11 @@
     },
     {
       "slug": "ecuador",
+      "country_slug": "ecuador",
       "country": "Ecuador",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/ecuador",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Ecuador packs the Andes, Amazon, Pacific coast, and the Galápagos into a compact, US-dollar economy with a low cost of living. Its digital nomad visa asks for a modest ~$1,446/month, doesn't tax foreign income, and leads to up to two years of legal residency. You apply from a consulate before you arrive.",
@@ -989,9 +1019,11 @@
     },
     {
       "slug": "el-salvador",
+      "country_slug": "el-salvador",
       "country": "El Salvador",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/el-salvador",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "El Salvador has reinvented itself as a safe, dollar-denominated, crypto-friendly base with Pacific surf towns and a growing remote-work scene. Its digital nomad visa is accessible at ~$1,460/month, exempts foreign income from tax, and can extend for years. A compact Central American option that's easy to apply for online.",
@@ -1055,9 +1087,11 @@
     },
     {
       "slug": "estonia",
+      "country_slug": "estonia",
       "country": "Estonia",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/estonia",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Estonia invented the digital nomad visa, and it remains the most digital-friendly bureaucracy in Europe — the same country that runs e-Residency. The income bar is on the higher side, but the process is clear, fast, and entirely English-friendly, with Tallinn's startup scene as the backdrop.",
@@ -1116,9 +1150,11 @@
     },
     {
       "slug": "greece",
+      "country_slug": "greece",
       "country": "Greece",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/greece",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Greece pairs one of Europe's most livable climates with a nomad visa that converts into a two-year renewable residence permit — and a 50% income tax break for those who shift their tax residence there. Athens and Thessaloniki for city life, the islands for everything else.",
@@ -1177,9 +1213,11 @@
     },
     {
       "slug": "hungary",
+      "country_slug": "hungary",
       "country": "Hungary",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/hungary",
+      "programme_name": "White Card",
       "visa_name": "White Card",
       "program_status": "open",
       "summary": "Hungary's White Card gives remote workers a budget-friendly EU base in Budapest — grand architecture, thermal baths, and a low cost of living for the Schengen zone. It asks for €3,000/month income plus savings, runs up to two years, and is straightforward to apply for. One caveat: it's a dead-end for residency — it can't lead to permanent residency or citizenship.",
@@ -1244,9 +1282,11 @@
     },
     {
       "slug": "indonesia",
+      "country_slug": "indonesia",
       "country": "Indonesia",
       "region": "Asia",
       "page_url": "https://globenomad.com/visa/indonesia",
+      "programme_name": "Remote Worker Visa (E33G KITAS)",
       "visa_name": "Remote Worker Visa (E33G KITAS)",
       "program_status": "open",
       "summary": "Bali finally got a real nomad visa: the E33G remote worker KITAS gives a full year of legal residence (renewable) for remote employees of foreign companies. The income bar is steep at $60,000/year, but it ends the visa-run era for the world's most famous nomad island.",
@@ -1305,9 +1345,11 @@
     },
     {
       "slug": "italy",
+      "country_slug": "italy",
       "country": "Italy",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/italy",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Italy's long-awaited nomad visa finally arrived in 2024, aimed at 'highly skilled' remote workers. The income bar is moderate by European standards, the visa renews annually, and the prize is living in Italy — the paperwork is heavier than its neighbors, but that's the Italian deal across the board.",
@@ -1366,9 +1408,11 @@
     },
     {
       "slug": "japan",
+      "country_slug": "japan",
       "country": "Japan",
       "region": "Asia",
       "page_url": "https://globenomad.com/visa/japan",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Japan's 2024 nomad visa is short and demanding — six months, no renewal, ¥10 million yearly income — but it's six legal months in Japan, which tourist entries never reliably gave remote workers. For high earners who've always wanted a Tokyo or Kyoto season, this is the clean way to do it.",
@@ -1427,9 +1471,11 @@
     },
     {
       "slug": "latvia",
+      "country_slug": "latvia",
       "country": "Latvia",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/latvia",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Latvia offers an affordable EU base with a digital, fast-internet capital in Riga, Baltic coastline, and easy Schengen travel. Its digital nomad visa is open only to people working for — or self-employed in — OECD-country companies, with a high income bar of about €4,213/month. For OECD-tied remote workers wanting an EU foothold for up to two years, it's a clean option.",
@@ -1494,9 +1540,11 @@
     },
     {
       "slug": "malaysia",
+      "country_slug": "malaysia",
       "country": "Malaysia",
       "region": "Asia",
       "page_url": "https://globenomad.com/visa/malaysia",
+      "programme_name": "DE Rantau Nomad Pass",
       "visa_name": "DE Rantau Nomad Pass",
       "program_status": "open",
       "summary": "Malaysia's DE Rantau pass is Southeast Asia's most accessible nomad visa: $24,000/year income for digital professionals, 12 months renewable for another 12, and Kuala Lumpur's first-world infrastructure at developing-world prices. Penang and Langkawi are certified 'nomad hubs' with vetted housing and workspaces.",
@@ -1554,10 +1602,96 @@
       "verified_at": "2026-07-26"
     },
     {
+      "slug": "malaysia-mm2h",
+      "country_slug": "malaysia",
+      "country": "Malaysia",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/malaysia-mm2h",
+      "programme_name": "Malaysia My Second Home (MM2H)",
+      "visa_name": "Malaysia My Second Home (MM2H)",
+      "program_status": "open",
+      "summary": "MM2H is not a retirement visa in the sense the other Asian long-stay routes are — it is residence by investment, and the marketing rarely says so. There is no income test at any tier. Instead every participant must place a fixed deposit (from USD 150,000 on Silver) AND buy a Malaysian home (from RM 600,000 on Silver) which cannot be sold for ten years. That combined bar is the highest of any long-stay route in this dataset. Two further things the guides get wrong: the entry tier runs FIVE years, not the ten the programme is still widely described as offering, and you cannot apply yourself — every application must go through a licensed MM2H tour operating business.",
+      "min_income_usd": null,
+      "income_original": "no income test at any tier — the bar is a fixed deposit from USD 150,000 plus a compulsory property purchase from RM 600,000",
+      "cost_usd": 1467,
+      "max_stay_months": 60,
+      "processing_time": "",
+      "requirements": [
+        "⚠ NO INCOME REQUIREMENT EXISTS, at any tier. The bar is capital, and it is two separate commitments — a fixed deposit AND a compulsory property purchase — which most summaries report as one or omit entirely.",
+        "SILVER: fixed deposit USD 150,000 · property from RM 600,000 · participating fee RM 1,000 · pass valid 5 years · minimum age 25.",
+        "GOLD: fixed deposit USD 500,000 · property from RM 1,000,000 · participating fee RM 3,000 · pass valid 15 years · minimum age 25.",
+        "PLATINUM: fixed deposit USD 1,000,000 · property from RM 2,000,000 · participating fee RM 200,000 · pass valid 20 years · minimum age 25. Platinum is the only tier permitted to work, run a business or invest.",
+        "SEZ/SFZ (Forest City, Johor only): fixed deposit USD 65,000 for ages 21–49, or USD 32,000 for ages 50 and above · property in Forest City at the floor price set by Johor state policy · participating fee RM 1,000 · pass valid 10 years.",
+        "⚠ COMPULSORY PROPERTY PURCHASE at every tier, after approval. The residence may not be sold for 10 years unless it is to upgrade to a more expensive one, and failing any condition revokes the pass.",
+        "Up to 50% of the principal fixed deposit may be withdrawn after approval, and only for a residence, education, medical or tourism spending inside Malaysia.",
+        "⚠ YOU CANNOT APPLY DIRECTLY. Every application must be submitted through an MM2H tour operating business licensed by the Ministry of Tourism, Arts & Culture under the Tourism Industry Act 1992, via the One Stop Centre. Agent fees are on top of the government fees and are not published anywhere official.",
+        "Minimum presence of 90 cumulative days per year for participants aged 25–49, which may be met between the principal and/or spouse and dependants. No minimum stay for participants aged 50 and above.",
+        "Compulsory medical check-up at a clinic or hospital on the Ministry's panel, for the principal and every dependant, after approval.",
+        "Government fees beyond the participating fee: processing RM 5,000 for the principal and RM 2,500 per dependant, a visa fee of RM 0–50 depending on nationality, and a fixed pass fee of RM 500 per year.",
+        "Open to nationals of any sovereign country holding diplomatic relations with Malaysia. Final immigration approval rests with the Ministry of Home Affairs, not with the tourism ministry that runs the programme."
+      ],
+      "steps": [
+        "Pick a tier against the capital you can commit and lock up — the deposit and the property together, not either alone.",
+        "Engage an MM2H tour operating business licensed under the Tourism Industry Act 1992. This is mandatory and there is no direct-application route; ask what the agent charges before anything else, because that figure is published nowhere official.",
+        "The agent submits the application through the One Stop Centre MM2H (OSC MM2H).",
+        "On approval, place the fixed deposit in a Malaysian institution licensed under the Financial Services Act 2013 or the Islamic Financial Services Act 2013.",
+        "Complete the compulsory medical check-up at a Ministry panel clinic or hospital, for the principal and every dependant.",
+        "Purchase and own a qualifying residence at or above your tier's minimum value. It cannot be sold for ten years except to upgrade."
+      ],
+      "faqs": [
+        {
+          "question": "What is the income requirement for MM2H?",
+          "answer": "There isn't one. MM2H applies no income test at any tier, which is why it is better understood as residence by investment than as a retirement visa. What it requires instead is capital in two forms at once: a fixed deposit — from USD 150,000 on Silver, USD 500,000 on Gold, USD 1,000,000 on Platinum, and USD 65,000 or USD 32,000 by age band in the Johor SEZ/SFZ tier — and a compulsory property purchase from RM 600,000, RM 1,000,000 and RM 2,000,000 respectively. Taken together that is the highest bar of any long-stay route we hold a record for."
+        },
+        {
+          "question": "How long is an MM2H visa valid?",
+          "answer": "It depends on the tier, and the widely repeated “10-year visa” is no longer the entry offer. Silver runs 5 years, the Johor SEZ/SFZ tier 10 years, Gold 15 years and Platinum 20 years, all renewable, with the pass validity also bounded by the validity of your passport. Anyone quoting a flat ten years for MM2H is describing an older version of the programme."
+        },
+        {
+          "question": "Do I have to buy a property to get MM2H?",
+          "answer": "Yes, at every tier, and it is the condition people most often discover late. The purchase is compulsory after approval, the minimum value is set by tier — from RM 600,000 on Silver — and the residence cannot be sold for ten years unless you are replacing it with a more expensive one. Failing any programme condition revokes the pass. The Johor SEZ/SFZ tier requires the property to be in Forest City specifically."
+        },
+        {
+          "question": "Can I apply for MM2H myself?",
+          "answer": "No. Every application must be submitted through an MM2H tour operating business licensed by the Ministry of Tourism, Arts & Culture under the Tourism Industry Act 1992, and processed via the One Stop Centre. That is a published rule, not a convention — which also explains why the search results for MM2H are almost entirely agencies. Their fees sit on top of the government fees and are published nowhere official, so ask early."
+        },
+        {
+          "question": "Does MM2H exempt me from Malaysian tax?",
+          "answer": "The programme lists a tax exemption on foreign funds and income among its benefits, but read what that actually is. Malaysia taxes territorially and generally exempts foreign-sourced income received by individuals regardless of MM2H — the exemption is a feature of Malaysian tax law, not a privilege the programme confers. The individual exemption has also moved: it was previously due to end on 31 December 2026 and Budget 2026 extended it to 31 December 2036. Confirm the current position with LHDN rather than relying on a programme brochure."
+        },
+        {
+          "question": "Can I work in Malaysia on MM2H?",
+          "answer": "Only on Platinum. The programme's own category table permits business, investment and career activity at the Platinum tier — a USD 1,000,000 fixed deposit and a RM 2,000,000 property — and not at Silver, Gold or the Johor SEZ/SFZ tier. If working in Malaysia is the point, the DE Rantau nomad pass or an employment pass is the route, not MM2H."
+        }
+      ],
+      "renewable": true,
+      "max_total_years": null,
+      "pr_path": null,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "The pass is renewable and its validity is additionally bounded by the validity of the participant's passport. The term differs by tier — 5 years on Silver, 10 on the Johor SEZ/SFZ tier, 15 on Gold, 20 on Platinum. ⚠ Whether MM2H leads anywhere permanent is NOT recorded, because the programme's own guidelines do not address permanent residency at all. MM2H is a social visit pass rather than a residence permit, which is a reason to doubt it leads to PR, but it is not a published answer and we do not publish inference as fact.",
+      "tax_residency_days": 182,
+      "foreign_income_taxed": false,
+      "special_tax_regime": false,
+      "tax_note": "special_tax_regime is FALSE on purpose, and the reason is the most-repeated misconception about this programme. MM2H lists a “tax exemption on foreign funds or income” among its category benefits, and it is routinely sold as an MM2H perk. It is not one: Malaysia taxes territorially and generally exempts foreign-sourced income received by individuals whether or not they hold MM2H. The programme restates the ordinary rule; it does not create a regime. The exemption also has a moving expiry — previously 31 December 2026, extended by Budget 2026 to 31 December 2036 — so confirm the current position with LHDN. Malaysian tax residency attaches at 182 days.",
+      "dependents_allowed": true,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "Dependants are unusually broad: spouse; biological, step or adopted children under 21; children aged 21 to 34 provided they are unemployed and single while in Malaysia; medically certified disabled children with no age limit; and parents and parents-in-law. Platinum participants may additionally bring foreign domestic help. There is no income add-on per dependant because there is no income test — the cost of dependants is the RM 2,500 processing fee each, and the 90-day annual presence requirement for under-50s may be satisfied between the principal, the spouse and the dependants rather than by the principal alone.",
+      "apply_from_abroad": true,
+      "apply_method": "mixed",
+      "logistics_note": "SOURCE: mm2h.gov.my, the Ministry of Tourism, Arts and Culture's own programme site — the category pages for Platinum, Gold, Silver and SEZ/SFZ plus the guidelines page, read 2026-08-26. Currency: government fees are published in ringgit and the deposits in US dollars, so both are recorded in their original currency. cost_usd converts the RM 6,000 of unavoidable government fees at the Silver tier — RM 5,000 processing plus RM 1,000 participating — at RM 4.09 to USD 1, the rate on 26 August 2026.\n\n⚠ THE REAL COST IS NOT KNOWABLE FROM OFFICIAL SOURCES, and that is a finding rather than a gap in our research. Because applications must go through a licensed agent, every applicant pays agent fees on top, and no government page publishes what those are. Any total cost figure you see for MM2H is either government fees only — understated — or an agent quoting their own price.\n\nWHY THIS RECORD READS DIFFERENTLY FROM THE MARKETING. Three claims are near-universal and none survives the programme's own guidelines: that MM2H is a ten-year visa (Silver, the entry tier, is five), that it is a retirement visa comparable to Thailand's O-A (it applies no income test and requires a property purchase, which makes it residence by investment), and that it carries a tax exemption (Malaysia's territorial system already exempts foreign-sourced individual income). Note also the state programmes: Sarawak and Sabah run their own MM2H schemes on separate terms, and this record covers the NATIONAL programme only.",
+      "official_url": "https://www.mm2h.gov.my/apply/guidelines",
+      "verified_at": "2026-08-26"
+    },
+    {
       "slug": "malta",
+      "country_slug": "malta",
       "country": "Malta",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/malta",
+      "programme_name": "Nomad Residence Permit",
       "visa_name": "Nomad Residence Permit",
       "program_status": "open",
       "summary": "Malta pairs an English-speaking, year-round-sunny Mediterranean base with one of Europe's most generous nomad tax deals: a flat 10% on foreign remote-work income once you're tax resident, and a full exemption in your first year. The Residency Malta Agency runs the permit directly, you can apply without an agent, and holding it gives you Schengen travel. The trade-off is a higher income bar than most and a small-island cost of living.",
@@ -1623,9 +1757,11 @@
     },
     {
       "slug": "mauritius",
+      "country_slug": "mauritius",
       "country": "Mauritius",
       "region": "Africa",
       "page_url": "https://globenomad.com/visa/mauritius",
+      "programme_name": "Premium Visa",
       "visa_name": "Premium Visa",
       "program_status": "open",
       "summary": "Mauritius is a tropical Indian Ocean base — beaches, a stable economy, and English widely spoken — with one of the most accessible nomad visas anywhere. The Premium Visa has a low $1,500/month income bar, is completely free, and is often approved within about a week. Valid a year and renewable, it's a low-friction way to live and work remotely in paradise.",
@@ -1689,9 +1825,11 @@
     },
     {
       "slug": "mexico",
+      "country_slug": "mexico",
       "country": "Mexico",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/mexico",
+      "programme_name": "Temporary Resident Visa",
       "visa_name": "Temporary Resident Visa",
       "program_status": "open",
       "summary": "Mexico never created a dedicated nomad visa — it didn't need one. The Temporary Resident Visa gives remote workers up to four years of legal residence on an income or savings test, and Mexico City, Oaxaca, and the coasts already host one of the world's largest nomad populations.",
@@ -1751,9 +1889,11 @@
     },
     {
       "slug": "montenegro",
+      "country_slug": "montenegro",
       "country": "Montenegro",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/montenegro",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Montenegro packs Adriatic coastline, mountains, and a low cost of living into a small, scenic Balkan country. Its digital nomad visa allows up to four years total and exempts your foreign income from local tax. One important caveat: the program is currently scheduled to end on 31 December 2026, so confirm it's still open before you plan around it.",
@@ -1818,9 +1958,11 @@
     },
     {
       "slug": "namibia",
+      "country_slug": "namibia",
       "country": "Namibia",
       "region": "Africa",
       "page_url": "https://globenomad.com/visa/namibia",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Namibia offers dramatic desert-and-safari landscapes, English as the official language, and solid connectivity in Windhoek and Swakopmund — a striking, low-cost African base. Its digital nomad visa is straightforward at $2,000/month income, though it caps at six months with no renewal and requires a chest X-ray as part of the process. Best for a defined half-year stay rather than a long-term move.",
@@ -1885,9 +2027,11 @@
     },
     {
       "slug": "panama",
+      "country_slug": "panama",
       "country": "Panama",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/panama",
+      "programme_name": "Short Stay Remote Worker Visa",
       "visa_name": "Short Stay Remote Worker Visa",
       "program_status": "open",
       "summary": "Panama is the easy on-ramp to Latin America for remote workers — a US-dollar economy, fast Caribbean and Pacific access, and a modern, connected base in Panama City. The short-stay remote worker visa (the country's digital nomad route) asks for solid income and must be filed through a local lawyer, but Panama's territorial tax system means your foreign income isn't taxed here. Best for a 9-to-18-month stay rather than settling.",
@@ -1952,9 +2096,11 @@
     },
     {
       "slug": "peru",
+      "country_slug": "peru",
       "country": "Peru",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/peru",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "announced_not_open",
       "summary": "Peru wrote a digital nomad residence category into law, but as of mid-2026 the application procedure has never been published — there is no way to apply, no official fees, and no launch date. Ignore any site walking you through a Peru nomad visa 'application'; it doesn't exist yet. The good news: nomads live in Peru anyway, on generous tourist stays of up to 183 days a year, with the independent-worker residence route for those who want to stay formally.",
@@ -2015,10 +2161,161 @@
       "verified_at": "2026-07-18"
     },
     {
+      "slug": "philippines",
+      "country_slug": "philippines",
+      "country": "Philippines",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/philippines",
+      "programme_name": "Special Resident Retiree's Visa (SRRV Classic)",
+      "visa_name": "Special Resident Retiree's Visa (SRRV Classic)",
+      "program_status": "open",
+      "summary": "The SRRV is permanent residency bought with a refundable bank deposit rather than earned through income, which makes it structurally different from every other route in this dataset. The Philippine Retirement Authority sets the deposit by age band and by whether you hold a pension, and the Bureau of Immigration issues the visa. The stay is indefinite with multiple entry, and — uniquely among the Asian long-stay routes we hold — it exempts the holder from needing a separate work or student permit.",
+      "min_income_usd": 800,
+      "income_original": "USD 800/month lifetime pension (single applicant); USD 1,000/month with dependents",
+      "cost_usd": 1500,
+      "max_stay_months": null,
+      "processing_time": "",
+      "requirements": [
+        "Principal must be 40 or over. The visa deposit is set by age band AND pension status: 50+ pensioner USD 15,000 · 40–49 pensioner USD 25,000 · 50+ non-pensioner USD 30,000 · 40–49 non-pensioner USD 50,000.",
+        "The pensioner tiers require proof of a LIFETIME pension of at least USD 800/month for a single applicant, or USD 1,000/month for an applicant with dependents.",
+        "The deposit is a requisite dollar time deposit remitted from abroad into a PRA-accredited bank — it is refundable capital, not a fee, and under SRRV Classic it may be used for investment purposes allowed by the programme.",
+        "PRA processing fee of USD 1,500, plus USD 300 for each joining dependent.",
+        "PRA annual fee of USD 360 covering the principal plus two dependents, payable on joining and every year after, plus USD 100 for each dependent beyond two.",
+        "Medical certificate and police clearance from the country of origin or residence, each issued within 6 months of submission.",
+        "Bureau of Immigration Clearance Certificate. An NBI clearance is additionally required for anyone who has already stayed more than 90 days in the Philippines.",
+        "Documents issued outside the Philippines must be in English and either apostilled or authenticated by a Philippine embassy or consulate.",
+        "⚠ Much lower deposits exist under SRRV Courtesy — USD 1,500 to USD 6,000 — but only for former Filipino citizens, and for retired diplomats, officers of DFA-recognised international organisations and retired military from countries with recognised bilateral relations. Most applicants do not qualify, and PRA's own table for the foreign-national Courtesy tier is laid out ambiguously enough that we are not restating its bands as fact."
+      ],
+      "steps": [
+        "Enter the Philippines on a tourist visa without restrictions, valid for at least one month while the SRRV is processed, and extend it if it expires mid-process.",
+        "Choose a PRA-accredited bank. For a private bank you must first request a Letter of Introduction from PRA at srrvwalkin@pra.gov.ph.",
+        "Remit the visa deposit from a bank abroad as an inward remittance, naming the SRRV deposit, the applicant and the passport number as the remittance purpose.",
+        "Submit the PRA application form with passport, medical certificate, police clearance, BI clearance and eight 2x2 photographs, and pay the USD 1,500 processing fee.",
+        "PRA endorses the approved application to the Bureau of Immigration, which issues the visa."
+      ],
+      "faqs": [
+        {
+          "question": "How much do you need to deposit for an SRRV?",
+          "answer": "It depends on your age and whether you hold a pension, and the figure most sites quote is out of date. PRA's current SRRV Classic tiers are USD 15,000 for a pensioner aged 50 or over, USD 25,000 for a pensioner aged 40–49, USD 30,000 for a non-pensioner aged 50 or over, and USD 50,000 for a non-pensioner aged 40–49. The pensioner tiers require proof of a lifetime pension of at least USD 800 a month, or USD 1,000 with dependents. The deposit is refundable capital held in a PRA-accredited bank, not a fee."
+        },
+        {
+          "question": "Can you work in the Philippines on an SRRV?",
+          "answer": "The SRRV exempts its holder from needing a separate work or student visa or permit, which is unusual — Thailand's O-A retirement visa prohibits employment outright. That exemption is published by PRA among the visa's benefits. It is a different question from whether a particular job or business also needs sector licensing, so take local advice on the specific work rather than treating the exemption as blanket permission."
+        },
+        {
+          "question": "Is the SRRV permanent residency?",
+          "answer": "Yes. PRA describes it as permanent residency with multiple entry and indefinite stay, and holders are exempt from the Bureau of Immigration's annual reporting and from the ACR I-Card. There is no renewal cycle. What recurs is the PRA annual fee — USD 360 for SRRV Classic covering the principal and two dependents — and the status persists while the deposit is maintained and the fee is paid."
+        },
+        {
+          "question": "What is the minimum age for the SRRV?",
+          "answer": "Forty. That is lower than most Asian retirement routes — Thailand's O-A starts at 50 — but the deposit is higher in the 40–49 band: USD 25,000 with a pension and USD 50,000 without, against USD 15,000 and USD 30,000 for applicants aged 50 and over."
+        },
+        {
+          "question": "Are there cheaper SRRV options?",
+          "answer": "Yes, under SRRV Courtesy, at USD 1,500 to USD 6,000 — but eligibility is narrow. It covers former Filipino citizens, retired diplomats, officers of international organisations recognised by the Philippine DFA, retired military from countries with recognised bilateral relations with the Philippines, and certain high achievers. Most applicants do not qualify, and PRA's own table for the foreign-national tiers is laid out ambiguously enough that we do not restate its exact bands here."
+        }
+      ],
+      "renewable": true,
+      "max_total_years": null,
+      "pr_path": true,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "Permanent residency is granted on issue rather than after a qualifying period, which is why no PR waiting time is recorded. There is no renewal cycle in the usual sense: the SRRV confers permanent residency with multiple entry and indefinite stay, and holders are exempt from the Bureau of Immigration's annual reporting and from the ACR I-Card. What recurs is the PRA annual fee — USD 360 for the principal plus two dependents. The status persists while the deposit is maintained and the fee is paid.",
+      "tax_residency_days": null,
+      "foreign_income_taxed": null,
+      "special_tax_regime": true,
+      "tax_note": "PRA publishes a specific set of exemptions and we record only those: SRRV holders are exempt from tax on pensions and annuities, from travel tax, and from customs duties on a one-time importation of household goods up to USD 7,000. ⚠ We have NOT verified how the Philippines taxes other foreign income for a resident alien, nor the day threshold at which residency attaches, so both fields are left blank rather than guessed. The pension exemption is not a general foreign-income exemption and must not be read as one.",
+      "dependents_allowed": true,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "Spouse and unmarried children under 21 qualify, and can join on the initial application or be added after the principal's visa is approved. Each joining dependent costs USD 300 in application fees. Two dependents are covered by the principal's deposit; each dependent beyond two requires an additional USD 15,000 deposit, except for former Filipino citizens. The pension threshold also rises from USD 800 to USD 1,000 a month once you have dependents.",
+      "apply_from_abroad": false,
+      "apply_method": "in_country",
+      "logistics_note": "The figure most sites publish for this visa — a USD 10,000 deposit for a pensioner aged 50 or over — is out of date. PRA's own page now sets that applicant at USD 15,000, with the other three Classic tiers at USD 25,000, USD 30,000 and USD 50,000. Checked against pra.gov.ph on 2026-08-25.\n\nTwo things make this route unusual rather than merely cheap. The deposit is refundable capital rather than a fee, so the real cost is the foregone return on it plus USD 1,500 up front and USD 360 a year. And the visa exempts the holder from needing a separate work or student permit — a retirement visa that does not prohibit working, which Thailand's O-A does outright.\n\nApplied for inside the Philippines on a tourist visa. The deposit must arrive as an inward remittance from a bank abroad, so the money moves internationally while the application itself is filed with PRA locally.",
+      "official_url": "https://pra.gov.ph/SRRVisa",
+      "verified_at": "2026-08-25"
+    },
+    {
+      "slug": "philippines-digital-nomad",
+      "country_slug": "philippines",
+      "country": "Philippines",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/philippines-digital-nomad",
+      "programme_name": "Digital Nomad Visa",
+      "visa_name": "Digital Nomad Visa (Executive Order No. 86, s. 2025)",
+      "program_status": "open",
+      "summary": "The Philippines created a digital nomad visa by Executive Order No. 86 on 24 April 2025 and the Department of Foreign Affairs began issuing it at the end of June 2025, so this is a live route rather than an announcement. Two things about it are reported almost everywhere in a form the Executive Order does not support. It sets NO income figure — the text requires \"proof of sufficient income which is generated outside the Philippines\" and names no number. And it is not open to everyone: eligibility is gated on reciprocity, meaning your country must itself offer a digital nomad visa to Filipinos and must host a Philippine Foreign Service Post. No definitive list of qualifying countries has been published, so for most nationalities the honest answer to \"can I apply\" is that the government has not said.",
+      "min_income_usd": null,
+      "income_original": "",
+      "cost_usd": null,
+      "max_stay_months": 12,
+      "processing_time": "",
+      "requirements": [
+        "Be at least 18 years old.",
+        "⚠ RECIPROCITY, and it is the condition that decides most applications: you must be a national of a country that itself offers digital nomad visas to Filipinos, AND where the Philippines maintains a Foreign Service Post. No definitive list of qualifying countries has been published, so eligibility cannot be determined from public sources for most nationalities — ask the Philippine embassy or consulate for your country before making any plan around this visa.",
+        "Work remotely using digital technologies for clients or employers located OUTSIDE the Philippines.",
+        "Proof of sufficient income generated outside the Philippines. ⚠ The Executive Order states no figure. Widely published thresholds of USD 2,000 a month or USD 24,000 a year do NOT appear in the text and we could not verify them against any Department of Foreign Affairs page.",
+        "Must not be employed in the Philippines.",
+        "Valid health insurance covering the period of stay — a stated condition of the visa, not a recommendation.",
+        "No criminal record, and no security threat to the Philippines."
+      ],
+      "steps": [
+        "Confirm your nationality qualifies under the reciprocity condition with the Philippine embassy or consulate covering your country. This is the step that ends most applications and no public list answers it.",
+        "Register on the Philippine eVisa portal at evisa.gov.ph and complete the digital nomad visa application.",
+        "Upload proof of remote work, proof of income generated outside the Philippines, health insurance covering the stay, and a police clearance.",
+        "The Department of Foreign Affairs issues the visa through the Philippine Foreign Service Post handling your application."
+      ],
+      "faqs": [
+        {
+          "question": "Does the Philippines have a digital nomad visa in 2026?",
+          "answer": "Yes. Executive Order No. 86 was signed on 24 April 2025 and the Department of Foreign Affairs began issuing the visa at the end of June 2025. It allows a stay of up to one year, renewable for the same duration, for remote work performed for clients or employers outside the Philippines. The important qualification is that it is not open to every nationality — see the reciprocity condition."
+        },
+        {
+          "question": "What is the income requirement for the Philippines digital nomad visa?",
+          "answer": "Executive Order No. 86 does not state one. Its text requires \"proof of sufficient income which is generated outside the Philippines\" and names no figure. Almost every guide publishes USD 2,000 a month or USD 24,000 a year; neither number appears in the Executive Order, and we could not verify either against a Department of Foreign Affairs source. If a threshold exists it would sit in implementing guidance we have not been able to read, so we record no figure rather than repeat one."
+        },
+        {
+          "question": "Who is eligible for the Philippines digital nomad visa?",
+          "answer": "Nationals of countries that themselves offer digital nomad visas to Filipino citizens, and where the Philippines maintains a Foreign Service Post. That reciprocity condition is written into Executive Order No. 86, and no definitive list of qualifying countries has been published. It means the answer for your specific passport is a question for the Philippine embassy or consulate covering your country, not something any guide including this one can tell you."
+        },
+        {
+          "question": "Can I work for Philippine clients on this visa?",
+          "answer": "No. The Executive Order requires that the work be performed for clients or employers situated outside the Philippines, and separately states that the holder must not be employed in the Philippines. Local clients are outside what this visa permits; the route for working for a Philippine employer is the 9(g) pre-arranged employment visa, which requires an employer to petition for you."
+        },
+        {
+          "question": "Is health insurance required for the Philippines digital nomad visa?",
+          "answer": "Yes. Valid health insurance covering the period of stay is one of the conditions written into Executive Order No. 86 — a documented requirement of the visa rather than general advice. Philippine private hospitals, which is where foreigners are treated, bill upfront, so the cover has a practical job to do beyond satisfying the application."
+        }
+      ],
+      "renewable": true,
+      "max_total_years": null,
+      "pr_path": false,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "Executive Order No. 86 sets the stay at up to one year and states that holders may renew for the same duration, with multiple-entry privileges available during validity. The text sets no cap on the number of renewals and no residency or citizenship path attaches to the visa, so max_total_years is left blank rather than guessed.",
+      "tax_residency_days": null,
+      "foreign_income_taxed": null,
+      "special_tax_regime": false,
+      "tax_note": "Executive Order No. 86 contains no tax provisions at all — it neither exempts the holder nor states when Philippine tax residency attaches. Several guides present this visa as carrying a foreign-income exemption; that is not in the instrument that creates it. We have not verified the Philippines' resident-alien treatment of foreign income against a Bureau of Internal Revenue source, so all three tax fields are blank rather than filled from inference.",
+      "dependents_allowed": null,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "Executive Order No. 86 as published does not address accompanying dependants, so we record nothing. Whether spouses and children can be included is a question for the Foreign Service Post handling the application.",
+      "apply_from_abroad": true,
+      "apply_method": "mixed",
+      "logistics_note": "SOURCE, stated plainly because it is not the Official Gazette. The text of Executive Order No. 86 was read on 2026-08-25 at lawphil.net, the Arellano Law Foundation's Philippine law library and the standard citation source for Philippine legal texts. The Official Gazette's own copy (officialgazette.gov.ph) and the Department of Foreign Affairs site both return HTTP 403 to automated reads, so neither could be checked directly; the Bureau of Immigration and the eVisa portal are reachable but publish no digital nomad visa terms. Everything recorded here comes from the Executive Order's operative text.\n\nWHAT MAKES THIS ROUTE DIFFERENT FROM ITS REPUTATION. Two claims are near-universal in coverage of this visa and neither survives the text. The first is an income threshold: there is none in the Executive Order. The second is that the Philippines has 'opened' to digital nomads generally — it has not, because the reciprocity condition limits it to nationals of countries that offer Filipinos the same thing and host a Philippine Foreign Service Post, and the qualifying list has not been published. A visa that is genuinely issuing, to an undisclosed set of nationalities, on an unstated income bar, is a different proposition from the one being marketed.\n\nNote also what this does NOT replace. The SRRV remains the route for anyone 40 or over who can place the deposit: it is permanent residency on issue with no reciprocity gate and no renewal cycle, where this visa is a one-year non-immigrant stay.",
+      "official_url": "https://lawphil.net/executive/execord/eo2025/eo_86_2025.html",
+      "verified_at": "2026-08-25"
+    },
+    {
       "slug": "portugal",
+      "country_slug": "portugal",
       "country": "Portugal",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/portugal",
+      "programme_name": "D8 Digital Nomad Visa",
       "visa_name": "D8 Digital Nomad Visa",
       "program_status": "open",
       "summary": "Portugal's D8 visa is the European benchmark for nomads who want to settle rather than pass through: prove solid remote income, and it converts into a renewable residence permit with a path to permanent residency and citizenship. Mild winters, strong nomad communities in Lisbon, Porto, and Madeira, and full Schengen access while you hold it.",
@@ -2084,9 +2381,11 @@
     },
     {
       "slug": "qatar",
+      "country_slug": "qatar",
       "country": "Qatar",
       "region": "Middle East",
       "page_url": "https://globenomad.com/visa/qatar",
+      "programme_name": "No Digital Nomad Visa",
       "visa_name": "No Digital Nomad Visa",
       "program_status": "none",
       "summary": "Qatar does not offer a digital nomad visa. Employment in Qatar runs on employer sponsorship, there's no freelance-visa scheme, and the remote-work visa that's been rumoured since the mid-2020s hasn't materialised — only a five-year residence permit for exceptional talent and entrepreneurs has been announced. What exists in practice: visa-free or visa-on-arrival entry for dozens of nationalities, extendable in some cases, which is how the few nomads basing in Doha actually do it.",
@@ -2148,9 +2447,11 @@
     },
     {
       "slug": "romania",
+      "country_slug": "romania",
       "country": "Romania",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/romania",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Romania pairs a low cost of living with some of Europe's fastest internet, the medieval charm of Transylvania, and a lively hub in Bucharest — plus Schengen-area access. The catch is a steep income bar, pegged at roughly 3× the national average salary (around €5,000+/month). For higher earners wanting an affordable Eastern-European base, it delivers.",
@@ -2215,9 +2516,11 @@
     },
     {
       "slug": "serbia",
+      "country_slug": "serbia",
       "country": "Serbia",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/serbia",
+      "programme_name": "Temporary Residence Permit (Remote Work / Self-Employment)",
       "visa_name": "Temporary Residence Permit (Remote Work / Self-Employment)",
       "program_status": "open",
       "summary": "Serbia has no branded digital nomad visa — and doesn't need one. Most nationalities get 90 days visa-free, and the real long-stay route is a temporary residence permit based on remote work for foreign clients or on registering as an entrepreneur (the popular flat-tax 'pausalac' setup). Permits can now be issued for up to three years, Belgrade and Novi Sad have genuine nomad scenes, and the cost of living stays well below Western Europe.",
@@ -2282,9 +2585,11 @@
     },
     {
       "slug": "seychelles",
+      "country_slug": "seychelles",
       "country": "Seychelles",
       "region": "Africa",
       "page_url": "https://globenomad.com/visa/seychelles",
+      "programme_name": "Workcation Retreat Program",
       "visa_name": "Workcation Retreat Program",
       "program_status": "open",
       "summary": "Seychelles is a bucket-list Indian Ocean archipelago — granite peaks, white-sand beaches, and turquoise water — that opened its Workcation program to remote workers. There's no fixed income minimum (just proof you can support yourself), the fee is a flat €45, foreign income isn't taxed locally, and you can stay up to a year. The catch is cost of living: paradise here isn't cheap.",
@@ -2348,9 +2653,11 @@
     },
     {
       "slug": "south-africa",
+      "country_slug": "south-africa",
       "country": "South Africa",
       "region": "Africa",
       "page_url": "https://globenomad.com/visa/south-africa",
+      "programme_name": "Remote Work Visa",
       "visa_name": "Remote Work Visa",
       "program_status": "open",
       "summary": "South Africa offers world-class scenery, Cape Town's strong nomad scene, and a Western lifestyle at a low cost of living, with the rand stretching foreign income far. The Remote Work Visa, introduced in 2024, lets you live here for up to three years on income earned abroad. The income bar is high and processing can be slow, but for a long, affordable base in an English-speaking country it's hard to beat.",
@@ -2415,9 +2722,11 @@
     },
     {
       "slug": "south-korea",
+      "country_slug": "south-korea",
       "country": "South Korea",
       "region": "Asia",
       "page_url": "https://globenomad.com/visa/south-korea",
+      "programme_name": "Workation Visa (F-1-D)",
       "visa_name": "Workation Visa (F-1-D)",
       "program_status": "open",
       "summary": "South Korea's F-1-D 'workation' visa opens Seoul's hyper-connected, dynamic city life — the world's best mobile internet, safety, and food — to remote workers. The income bar is steep (about $66,000/year, twice Korea's GNI per capita) and it requires real insurance and work history, but for fans of Korea wanting up to two years, it's the legitimate route.",
@@ -2482,9 +2791,11 @@
     },
     {
       "slug": "spain",
+      "country_slug": "spain",
       "country": "Spain",
       "region": "Europe",
       "page_url": "https://globenomad.com/visa/spain",
+      "programme_name": "Digital Nomad Visa (Ley de Startups)",
       "visa_name": "Digital Nomad Visa (Ley de Startups)",
       "program_status": "open",
       "summary": "Spain's digital nomad visa, created by the 2023 Startup Law, is one of Europe's most generous: apply from inside Spain as a tourist and receive a three-year residence permit directly, with an optional flat-tax regime for new residents. Big-city energy in Madrid and Barcelona, islands and coast everywhere else, and full Schengen access included.",
@@ -2549,9 +2860,11 @@
     },
     {
       "slug": "sri-lanka",
+      "country_slug": "sri-lanka",
       "country": "Sri Lanka",
       "region": "Asia",
       "page_url": "https://globenomad.com/visa/sri-lanka",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Sri Lanka launched its digital nomad visa in February 2026, opening the island's beaches, tea-country highlands, and wildlife to remote workers at a low cost of living. The bar is accessible — $2,000/month — and holders can open local bank accounts and enrol kids in school. A fresh, well-rounded base in South Asia for up to a year, renewable.",
@@ -2615,9 +2928,11 @@
     },
     {
       "slug": "taiwan",
+      "country_slug": "taiwan",
       "country": "Taiwan",
       "region": "Asia",
       "page_url": "https://globenomad.com/visa/taiwan",
+      "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
       "summary": "Taiwan offers world-class food, safety, fast internet, and an affordable, well-connected base in Taipei. Its dedicated digital nomad visa — expanded in January 2026 from six months to a full two years — is a clean, purpose-built route for remote workers, with income tiers by age and a savings requirement. High earners can alternatively use the Employment Gold Card.",
@@ -2681,10 +2996,83 @@
       "verified_at": "2026-07-26"
     },
     {
-      "slug": "thailand",
+      "slug": "thailand-education",
+      "country_slug": "thailand",
       "country": "Thailand",
       "region": "Asia",
-      "page_url": "https://globenomad.com/visa/thailand",
+      "page_url": "https://globenomad.com/visa/thailand-education",
+      "programme_name": "Education Visa (ED)",
+      "visa_name": "Non-Immigrant Visa ED (Education)",
+      "program_status": "open",
+      "summary": "The ED visa is how people stay in Thailand for a year or more by enrolling in a course — Thai language, Muay Thai at a registered gym, or a degree. It is the usual answer for someone under 50 with no Thai employer and no pension, which rules out the O-A and the Non-B. What almost every guide leaves out is that the route tightened sharply in 2025: the Immigration Bureau revoked nearly 10,000 student visas in a single announcement on 22 August 2025, and schools running short non-degree courses now report enrolment monthly into a database immigration cross-checks. Enrolling is no longer the same thing as staying.",
+      "min_income_usd": null,
+      "income_original": "฿20,000 per person / ฿40,000 per family in accessible funds",
+      "cost_usd": 80,
+      "max_stay_months": 3,
+      "processing_time": "2–10 working days; up to 3 months for some nationalities",
+      "requirements": [
+        "A letter of acceptance from a Thai school, university or training institution, signed, with a copy of the signer's Thai ID card or passport — and the signer's work permit too if they are foreign",
+        "The institution's own certificate of registration",
+        "For public or government schools below university level, an approval letter from the Ministry of Education, the Office of the Private Education Commission or the Office of the Basic Education Commission",
+        "A police clearance certificate from your country of nationality or residence, valid no more than three months — routinely omitted from agency guides",
+        "Evidence of funds: ฿20,000 per person or ฿40,000 per family is the figure Thai posts publish, but individual consulates set their own and the US posts ask for a bank balance of $1,000 for a language course and $4,000 for school or university",
+        "Passport valid at least six months from arrival, plus a return ticket and proof of where you will stay",
+        "You cannot work on this visa, and attendance is now checked — see the note on the 2025 crackdown below"
+      ],
+      "steps": [
+        "Pick a school that is licensed to enrol foreign students, and confirm in writing that it is currently authorised — a school that has lost its authorisation still sells courses, and the visa is what stops working, not the lessons",
+        "Enrol and pay, then collect the acceptance letter, the school's registration certificate and, for public schools below university level, the Ministry of Education approval letter",
+        "Order the police clearance certificate early: it expires in three months and it is the document that most often delays an application",
+        "Apply from outside Thailand through the Thai e-Visa portal or a Royal Thai Embassy or Consulate-General. Only single entry is granted, and the visa must be used within three months of issue",
+        "On arrival, an immigration officer grants up to 90 days. That is the whole visa — everything past it is an extension",
+        "Before day 90, file an extension of stay at a Thai immigration office with proof of continued enrolment from the school. The extension is granted at the officer's discretion and costs ฿1,900"
+      ],
+      "faqs": [
+        {
+          "question": "How long can I actually stay on an ED visa?",
+          "answer": "The visa itself gives you up to 90 days. Everything beyond that is an extension of stay applied for inside Thailand, granted at an immigration officer's discretion and renewed on the strength of your continued enrolment. Guides that describe the ED as a one-year visa are describing the extension, not the visa."
+        },
+        {
+          "question": "Can I work on an ED visa?",
+          "answer": "No. Working requires a Non-Immigrant B and a work permit, which is a different route. Working illegally while holding a student visa is the specific behaviour the 2025 crackdown was aimed at."
+        },
+        {
+          "question": "Do I have to actually attend classes?",
+          "answer": "Yes, and this changed in 2025. The Ministry of Higher Education, Science, Research and Innovation now requires institutions running short non-degree courses to report enrolment monthly, and the Immigration Bureau cross-checks those reports. Nearly 10,000 student visas and stay permits were cancelled in the August 2025 sweep, for people who had enrolled and never attended."
+        },
+        {
+          "question": "Is the ED visa cheaper than Thailand Privilege or the DTV?",
+          "answer": "The visa fee is small — roughly $75 to $90 depending on where you apply — but it is not the real cost. School fees for a year of Thai language typically run several times the visa fee, and each extension adds ฿1,900. Compare the total against the DTV before assuming ED is the budget option."
+        }
+      ],
+      "renewable": true,
+      "max_total_years": null,
+      "pr_path": null,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "SOURCE: Royal Thai Embassy Warsaw's own category sheet, hosted on image.mfa.go.th, and the Royal Thai Embassy Oslo's ED page, both read 2026-08-27. Both state the extension is \"solely at the discretion of the immigration officer\" — that is the Ministry's wording, not ours, and it is the single most important sentence on this page. Nothing about holding an ED visa entitles you to the year that guides describe.\n\nThe visa is single-entry, valid for entry within three months of issue, and grants up to 90 days. Length of extension is not published as a national rule: university students are commonly extended a year at a time and short-course students in shorter blocks, but no government page states either as an entitlement, so this record does not.",
+      "tax_residency_days": 180,
+      "foreign_income_taxed": true,
+      "special_tax_regime": false,
+      "tax_note": "Same rule as every other Thai visa, and it catches ED holders who assume studying is not living: 180 days in a calendar year makes you a Thai tax resident — not the 183 most countries use — after which foreign income earned from 1 January 2024 onward is taxable when you remit it into Thailand. A year-long course puts you over the line by definition.",
+      "dependents_allowed": null,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "Not published as a rule of the ED visa. Thai posts handle accompanying family case by case and no government page sets out a dependant provision, so this record makes no claim either way. Ask your own consulate before assuming a spouse can come on your enrolment.",
+      "apply_from_abroad": true,
+      "apply_method": "consulate",
+      "logistics_note": "SOURCES, each read individually on 2026-08-27: the Royal Thai Embassy Warsaw category sheet at image.mfa.go.th (documents, validity, period of stay, extension wording); the Royal Thai Embassy Oslo ED page (fee, funds requirement, insurance); the Royal Thai Consulate-General Los Angeles ED page (US bank-balance minimums, and the official_url for this record because it is the US-facing post).\n\n⚠ THERE IS NO SINGLE NATIONAL FEE, and a guide quoting one has picked a post. The fee is set per mission in local currency: Oslo publishes 800 NOK, Vienna €70 and Warsaw 360 PLN for a single entry, all read on 2026-08-27. cost_usd records $80 as the middle of that verified range so the figure is comparable with other records — treat it as an order of magnitude and check your own consulate. The extension of stay inside Thailand is a separate ฿1,900.\n\n⚠ THE 2025 CRACKDOWN IS THE REASON THIS RECORD READS DIFFERENTLY FROM THE MARKETING. On 22 August 2025 Higher Education Minister Sudawan Wangsuphakijkosol announced that the Immigration Bureau, working with the Ministry of Higher Education, Science, Research and Innovation, had revoked nearly 10,000 student visas and temporary stay permits from people who had enrolled and never attended. Institutions running short non-degree courses now submit monthly enrolment reports that immigration cross-checks. The agencies selling ED visas have the same structural reason not to mention this that relocation firms have for not mentioning dead nomad visas — it is the thing that would stop the sale. Reported by Bangkok Post and Khaosod English, 22–26 August 2025; we have not found a numbered ministerial regulation behind it and do not claim one, so this is recorded as an enforcement action with a date rather than as a rule with a citation.",
+      "official_url": "https://thaiconsulatela.thaiembassy.org/en/publicservice/non-immigrant-type-ed-to-study",
+      "verified_at": "2026-08-27"
+    },
+    {
+      "slug": "thailand-nomad",
+      "country_slug": "thailand",
+      "country": "Thailand",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/thailand-nomad",
+      "programme_name": "Digital Nomad Visa (DTV)",
       "visa_name": "Destination Thailand Visa (DTV)",
       "program_status": "open",
       "summary": "Thailand's DTV changed the game for Asia-based nomads: a five-year, multiple-entry visa with 180 days per stay, no monthly income requirement — just a savings threshold — and a fee that undercuts almost every Western nomad visa. If your life runs through Bangkok, Chiang Mai, or the islands, this is the one to get.",
@@ -2747,10 +3135,161 @@
       "verified_at": "2026-07-26"
     },
     {
+      "slug": "thailand-retirement",
+      "country_slug": "thailand",
+      "country": "Thailand",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/thailand-retirement",
+      "programme_name": "Retirement Visa (O-A)",
+      "visa_name": "Non-Immigrant Visa O-A (Long Stay)",
+      "program_status": "open",
+      "summary": "Thailand's O-A is the mainstream route for retiring here: one year of stay, renewable indefinitely, open to anyone 50 or over who can show ฿800,000 in the bank or ฿65,000 a month coming in. It is not the DTV and the two are constantly confused — the DTV is a five-year visa for remote workers with no age floor, the O-A is a one-year visa for over-50s who are explicitly forbidden from working. The requirement most applicants get wrong is the health insurance, where Thailand's own consulates publish two different minimums; the section below sets out both and which one binds.",
+      "min_income_usd": 1800,
+      "income_original": "฿800,000 in accessible funds, or ฿65,000/month income",
+      "cost_usd": null,
+      "max_stay_months": 12,
+      "processing_time": "",
+      "requirements": [
+        "Aged 50 or over on the day the application is submitted",
+        "฿800,000 in a bank account, or income of ฿65,000 per month, or a combination of deposit and annual income totalling ฿800,000 a year",
+        "Health insurance — see the note below, because Thai consulates publish two different minimums for this visa and only one of them is current",
+        "A police clearance certificate from your country of nationality or residence, valid no more than three months",
+        "A medical certificate showing freedom from the prohibited diseases, valid no more than three months",
+        "Passport with at least 18 months' validity remaining",
+        "Employment of any kind in Thailand is strictly prohibited on this visa"
+      ],
+      "steps": [
+        "Confirm you are 50 or over on your intended submission date — this is checked against the application date, not your arrival date",
+        "Get the money in place: ฿800,000 in an account in your own name, or documentation of ฿65,000/month income, and be prepared for your consulate to ask how long it has been there",
+        "Buy health insurance that meets the O-A minimum and will issue the certificate the consulate requires — confirm with the insurer in writing before paying, because a policy with enough cover is still refused if the insurer will not complete Thailand's form",
+        "Obtain the police clearance and the medical certificate; both expire in three months, so start them after the money is settled, not before",
+        "Apply from outside Thailand through the Thai e-Visa portal or your local Royal Thai Embassy or Consulate-General",
+        "On arrival you receive one year. To stay beyond it, file an extension of stay at a Thai immigration office inside the country — a different process, with its own financial rules"
+      ],
+      "faqs": [
+        {
+          "question": "How much health insurance does the O-A actually require?",
+          "answer": "Thailand publishes two figures for this visa and both are live on official consulate pages, which is why so many guides contradict each other. The original 2019 rule set a minimum of ฿400,000 inpatient and ฿40,000 outpatient. From 1 October 2021 an amendment required cover for general illness including COVID-19 with a total sum insured of no less than USD 100,000 (about ฿3,000,000), and that is the figure Royal Thai Embassies now ask for on new O-A applications. The Consulate-General in Chicago currently lists both on the same page. Treat USD 100,000 / ฿3,000,000 as the number to meet, and do not buy a ฿400,000 policy on the strength of a blog post — the lower figure is the older rule and still appears in extension-of-stay contexts, which is a different process."
+        },
+        {
+          "question": "Is the O-A the same as the DTV?",
+          "answer": "No, and mixing them up is the most common mistake we see. The DTV is a five-year multiple-entry visa for remote workers, has no minimum age, tests ฿500,000 in accessible funds, and permits remote work for employers outside Thailand. The O-A is a one-year renewable visa for people aged 50 and over, tests ฿800,000 or ฿65,000 a month, and prohibits employment of any kind. If you are over 50 and still working remotely, the DTV is very likely the visa you want."
+        },
+        {
+          "question": "What is the difference between the O-A and the O-X?",
+          "answer": "Both are long-stay visas for the over-50s, but the O-X is a ten-year visa restricted to nationals of a specific list of countries and its financial bar is far higher — ฿3 million held in Thailand, or ฿1.8 million plus ฿1.2 million of annual income, with the deposit maintained for the first year. The O-A is the one-year, ฿800,000 route that most retirees use. Insurance figures get swapped between the two constantly; check which visa a source is describing before you trust a number."
+        },
+        {
+          "question": "Does the O-A make me a Thai tax resident?",
+          "answer": "It is the days that decide, not the visa. Spend 180 days or more in Thailand in a calendar year and you are tax resident — note that Thailand uses 180 days, not the 183 most countries use, and people miscount it. Once resident, foreign income earned from 1 January 2024 onward is taxable when you remit it into Thailand; the old route of bringing money in the following year to avoid tax was closed in 2024. Pensions are treated under the relevant double-tax treaty, which varies by country, so take advice on your own before you move money."
+        },
+        {
+          "question": "Can my spouse come with me on my O-A?",
+          "answer": "Not on your visa. The O-A is issued to an individual and each applicant has to meet the age and financial tests in their own right. A spouse who is also 50 or over can apply for their own O-A; a spouse under 50 generally applies for a Non-Immigrant O as the dependant of an O-A holder, which is a separate application with its own conditions. We have not been able to verify the current dependant rules against a Thai government source, so treat this as the mechanism to ask your consulate about rather than a rule we are asserting."
+        },
+        {
+          "question": "How long can I keep renewing it?",
+          "answer": "There is no published cap. The O-A grants one year, and beyond that you file an extension of stay at a Thai immigration office inside the country, annually. That extension is a different process from the visa with its own financial requirements — the ฿800,000 has to sit in a Thai bank account and be seasoned for a period before you file. On permanent residency we are flagging a mechanism rather than asserting a rule: Thai PR is granted under specific categories and retirement is not one of them, so an O-A is very unlikely to lead there, but Thai Immigration publishes nothing that says so directly and we will not invent a citation for it."
+        }
+      ],
+      "renewable": true,
+      "max_total_years": null,
+      "pr_path": null,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "The visa grants one year. Staying longer means an extension of stay filed at a Thai immigration office inside the country, renewed annually, with no published limit on how many times. Do not read the extension's rules off this page: it is a separate process, the ฿800,000 must be held in a Thai bank rather than your home one, and it has a seasoning period before filing. On permanent residency, we are deliberately recording nothing rather than guessing — Thai PR runs through defined categories and retirement is not among them, which makes a PR route very unlikely, but Thai Immigration has published no statement we can cite and an unpublished rule is not the same answer as 'no'.",
+      "tax_residency_days": 180,
+      "foreign_income_taxed": true,
+      "special_tax_regime": false,
+      "tax_note": "Thailand's threshold is 180 days in a calendar year, not the 183 most countries use, and that difference catches people out. Cross it and you are a Thai tax resident, at which point foreign income earned from 1 January 2024 onward is taxable when you remit it into Thailand — the old 'bring it in the following year and it is untaxed' route closed in 2024. For a retiree this bites differently than it does for a nomad, because pension income is usually remitted rather than left offshore. How your pension is actually treated depends on the double-tax treaty between Thailand and your home country, and those differ enough that a general answer would be worthless.",
+      "dependents_allowed": null,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "The O-A is issued individually — each applicant meets the age and financial tests on their own. A spouse aged 50 or over can hold their own O-A. A spouse under 50 generally applies for a Non-Immigrant O as a dependant, separately. We could not verify the current dependant conditions against a Thai government page, so this is recorded as the mechanism to ask about, not as a rule we are stating.",
+      "apply_from_abroad": true,
+      "apply_method": "consulate",
+      "logistics_note": "Applied for from outside Thailand, through the Thai e-Visa portal or a Royal Thai Embassy or Consulate-General. Two things vary by post and are worth checking against your own consulate rather than any guide: the fee, which is set in local currency (the Royal Thai Embassy in Singapore charges SGD 250 for the multiple-entry O-A, so there is no single USD figure to quote), and how long your ฿800,000 must have been in the account before you apply. The seasoning period that circulates online — two months — belongs to the extension of stay filed inside Thailand, which is a different process from this visa.",
+      "official_url": "https://singapore.thaiembassy.org/en/page/non-immigrant-visa-o-a-long-stay",
+      "verified_at": "2026-08-12"
+    },
+    {
+      "slug": "thailand-work",
+      "country_slug": "thailand",
+      "country": "Thailand",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/thailand-work",
+      "programme_name": "Work Visa (Non-B)",
+      "visa_name": "Non-Immigrant Visa B (Business and Work)",
+      "program_status": "open",
+      "summary": "The Non-B is the only route on this page that lets you legally earn money inside Thailand — and it is the one where the hard requirements are not yours. Before a consulate will issue it you need a letter of approval from the Thai Ministry of Labour, which your employer obtains; after you land you apply separately for the work permit that actually authorises the work. The visa is permission to enter, not permission to work, and people conflate the two constantly. Practitioners publish an employer test of ฿2 million registered capital and four Thai employees per foreigner, which is what rules out most small companies — we could not verify that figure on a government page and say so below rather than dressing it up.",
+      "min_income_usd": null,
+      "income_original": "฿20,000 per person / ฿40,000 per family in accessible funds",
+      "cost_usd": 61,
+      "max_stay_months": 3,
+      "processing_time": "Varies by post; the Ministry of Labour approval it depends on takes longer than the visa",
+      "requirements": [
+        "A letter of approval from the Thai Ministry of Labour, obtained by your employer before you apply — without it the consulate will not issue the visa",
+        "Corporate documents of the hiring company: business registration and licence, list of shareholders, company profile, details of business operation, list of foreign workers with names, nationalities and positions, a map to the office, balance sheet and tax filings",
+        "Evidence of adequate finance: ฿20,000 per person or ฿40,000 per family",
+        "Passport valid at least six months, application form, and a 4×6 cm photograph taken within six months",
+        "Alien income tax documentation if you have worked in Thailand before",
+        "A separate work permit, applied for at the Department of Employment after you arrive — the visa alone does not let you work"
+      ],
+      "steps": [
+        "Get hired first. Nothing in this process can start without a Thai employer, because the paperwork is theirs — if you are trying to work for yourself, this route means incorporating a Thai company and meeting its conditions, not applying as an individual",
+        "Your employer applies to the Ministry of Labour for the approval letter and assembles the corporate document pack",
+        "Apply at a Royal Thai Embassy or Consulate-General from outside Thailand: ฿2,000 for single entry valid three months, or ฿5,000 for multiple entry valid one year",
+        "Enter Thailand. An immigration officer grants a maximum of 90 days — that is the visa's whole entitlement",
+        "Apply for the work permit at the Department of Employment. Do not work before it is issued",
+        "Before day 90, file an extension of stay at the Immigration Bureau. The MFA states this may be granted for one year from the date of first entry"
+      ],
+      "faqs": [
+        {
+          "question": "Can I get a Non-B without a job offer?",
+          "answer": "No. The application is built on your employer's documents — the Ministry of Labour approval letter, the corporate registration, the shareholder list, the balance sheet. There is no individual route. Working for yourself means incorporating a Thai company and satisfying the same employer conditions."
+        },
+        {
+          "question": "Does the Non-B let me work?",
+          "answer": "Not on its own. The MFA is explicit that on arrival you must apply for a work permit at the Department of Employment. The visa permits entry and stay; the work permit permits the work. Working before the permit is issued is illegal even with a valid Non-B."
+        },
+        {
+          "question": "Why do so many small companies fail to sponsor one?",
+          "answer": "Thai law firms consistently publish an employer test of ฿2 million in fully paid-up registered capital and four Thai employees for each foreigner, halved on the capital side if you are married to a Thai national. That test is about the company, not you, and it is what a qualified applicant most often gets blocked by. We could not confirm the figures on a government page we could reach, so treat them as the practitioner consensus rather than a cited rule."
+        },
+        {
+          "question": "Is the Non-B better than the DTV for remote workers?",
+          "answer": "For most remote workers, no. The DTV covers income earned outside Thailand, needs no employer and runs five years. The Non-B exists for work performed inside Thailand for a Thai entity, and it is a heavier process with an annual renewal cycle. Choose it because you have a Thai employer, not because it sounds more permanent."
+        }
+      ],
+      "renewable": true,
+      "max_total_years": null,
+      "pr_path": null,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "SOURCE: the Ministry of Foreign Affairs' own Non-Immigrant B page, read 2026-08-27. Its words: entry gives \"a maximum period of 90 days\", and an extension of stay may be granted at the Office of the Immigration Bureau \"for a period of one year from the date of first entry\". Renewal runs on an annual cycle tied to continued employment — lose the job and the basis for the extension goes with it.\n\n⚠ PR IS RECORDED AS NOT PUBLISHED, NOT AS ABSENT. Thailand does run a permanent residence route that long-term Non-B holders are the main users of, but the MFA's Non-B page says nothing about it and we have not yet verified the Immigration Bureau's criteria. Leaving the field null renders \"None published\", which is the honest state; writing \"No\" would be a positive claim we cannot support, and writing \"Yes\" would be worse. This is a research gap with a name, and it is the next thing to close on this record.",
+      "tax_residency_days": 180,
+      "foreign_income_taxed": true,
+      "special_tax_regime": false,
+      "tax_note": "Two layers, and Non-B holders are the group most likely to owe on both. Income earned in Thailand for a Thai employer is Thai-source and taxable from the first baht regardless of how many days you spend here. Separately, more than 180 days in a calendar year — not the 183 most countries use — makes you a Thai tax resident, after which foreign income earned since 1 January 2024 is taxable when you remit it into Thailand.",
+      "dependents_allowed": null,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "Not published on the MFA's Non-B page. Spouses and children of Non-B holders are in practice handled through a separate Non-Immigrant O application rather than as dependants on this visa, but that is a different record and we have not verified its rules, so this one makes no claim. Ask your consulate before assuming family can travel on your approval.",
+      "apply_from_abroad": true,
+      "apply_method": "consulate",
+      "logistics_note": "SOURCE: the Ministry of Foreign Affairs page for Non-Immigrant Visa B (Business and Work), read 2026-08-27, which is also official_url. Unlike the ED visa, the fee here IS published nationally in baht rather than set per post: ฿2,000 single entry valid three months, ฿5,000 multiple entry valid one year. cost_usd converts the single-entry fee at ฿32.74 to USD 1, the rate on 26 August 2026 — the baht figure is the real one.\n\n⚠ THE EMPLOYER TEST IS THE REQUIREMENT THAT DECIDES THIS APPLICATION, AND WE COULD NOT VERIFY IT OFFICIALLY. Thai law firms publish it consistently as a 2:1:4 rule — ฿2 million of fully paid-up registered capital and four Thai employees per foreign hire, with the capital halved for a foreigner married to a Thai national. We checked the Board of Investment's own One Start One Stop page for non-BOI businesses on 2026-08-27 and it sets out documents and restricted occupations but states no capital threshold and no employee ratio. So this record carries the figures as practitioner consensus with that caveat attached, the same way the Thailand ED record handles the 2025 crackdown having no numbered regulation behind it. Naming what we could not confirm is the point — the competing pages state it as settled law without a citation, and a reader planning around it deserves to know which it is.\n\n⚠ THE VISA IS NOT THE WORK PERMIT. The MFA requires a Ministry of Labour approval letter BEFORE the visa is issued and a separate work permit from the Department of Employment AFTER arrival. Guides that describe the Non-B as \"the Thailand work visa\" are describing half a process, and the half they omit is the one that makes the work legal.",
+      "official_url": "https://www.mfa.go.th/en/publicservice/non-immigrant-visa-b-for-business-and-work",
+      "verified_at": "2026-08-27"
+    },
+    {
       "slug": "uae",
+      "country_slug": "uae",
       "country": "United Arab Emirates",
       "region": "Middle East",
       "page_url": "https://globenomad.com/visa/uae",
+      "programme_name": "Virtual Work Residence Visa",
       "visa_name": "Virtual Work Residence Visa",
       "program_status": "open",
       "summary": "Dubai's remote work visa is the zero-income-tax play: a one-year renewable residence for remote workers earning $3,500/month, with an Emirates ID, local banking, and the best flight connectivity on the planet. Summer is brutal; October to April is why people stay.",
@@ -2809,9 +3348,11 @@
     },
     {
       "slug": "uruguay",
+      "country_slug": "uruguay",
       "country": "Uruguay",
       "region": "Americas",
       "page_url": "https://globenomad.com/visa/uruguay",
+      "programme_name": "Digital Nomad Permit",
       "visa_name": "Digital Nomad Permit",
       "program_status": "open",
       "summary": "Uruguay is the quiet, stable choice in South America — safe, democratic, and relaxed, with beach towns like Punta del Este and a livable capital in Montevideo. The Digital Nomad Permit has no minimum income and costs almost nothing: you enter as a tourist, file a short online form with a sworn declaration of means, and you're set for six months. A territorial tax system means foreign income generally isn't taxed.",
@@ -2875,9 +3416,11 @@
     },
     {
       "slug": "vietnam",
+      "country_slug": "vietnam",
       "country": "Vietnam",
       "region": "Asia",
       "page_url": "https://globenomad.com/visa/vietnam",
+      "programme_name": "No nomad or retirement visa",
       "visa_name": "No nomad or retirement visa",
       "program_status": "none",
       "summary": "Vietnam has no digital nomad visa and no retirement visa, and as of 2026 neither is close to existing — a ten-year 'golden visa' was proposed in April 2025 and has not been enacted. That matters because a lot of people are looking for one: searches for a Vietnamese retirement visa run into the hundreds every month and every result is either an agency selling something else or a guide describing a visa that was never created. What people actually do is live here on repeated 90-day e-visas, which is legal and cheap and is not residence — you accrue no status, no path to permanence, and no protection if the rules change. Anyone offering you a Vietnamese retirement visa is selling you a different product under that name.",

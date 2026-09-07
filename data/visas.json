@@ -7,8 +7,8 @@
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "GlobeNomad Visa Dataset — https://globenomad.com",
   "null_means": "null means the government has not published this rule. It never means \"no\".",
-  "last_verified_at": "2026-08-27",
-  "record_count": 51,
+  "last_verified_at": "2026-09-07",
+  "record_count": 53,
   "records": [
     {
       "slug": "albania",
@@ -3067,6 +3067,81 @@
       "verified_at": "2026-08-27"
     },
     {
+      "slug": "thailand-ltr",
+      "country_slug": "thailand",
+      "country": "Thailand",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/thailand-ltr",
+      "programme_name": "Long-Term Resident Visa (LTR)",
+      "visa_name": "Long-Term Resident Visa (LTR)",
+      "program_status": "open",
+      "summary": "The LTR is Thailand's ten-year visa for the people the Board of Investment wants to keep: remote employees earning $80,000 a year for a listed or large employer, retirees aged 50 or over with an $80,000 pension, people with $500,000 invested in Thailand, and skilled professionals hired into targeted industries. Of the six Thai routes we track it is the only one that exempts foreign income from Thai tax and the only one that reports once a year instead of every 90 days. What the guides sell it as — a nomad visa — it mostly is not: the Work-from-Thailand track needs an employer that is listed or turned over $50 million in three years, freelancers do not qualify, and the track comes with no work permit.",
+      "min_income_usd": 6667,
+      "income_original": "$80,000/yr income, or $500,000 invested + $1M assets",
+      "cost_usd": 1400,
+      "max_stay_months": 60,
+      "processing_time": "20 working days for the BOI endorsement, then the visa within 60 days of the letter",
+      "requirements": [
+        "One of four tracks, each with its own test. Work-from-Thailand Professional: average personal income of at least $80,000 a year over the two years before you apply, or $40,000 with a master's degree, intellectual property or at least $1 million of Series A funding — plus an employer that is listed on a stock exchange, or a private company at least three years old with $50 million of combined revenue over those three years, or a wholly owned subsidiary of either",
+        "Wealthy Pensioner: aged 50 or over and retired, with pensions or fixed personal income of at least $80,000 a year, or at least $40,000 plus $250,000 invested in Thailand. Salary does not count",
+        "Wealthy Global Citizen: assets of at least $1 million and at least $500,000 already invested in Thailand — government bonds with five years to maturity, a Thai company, an SEC-registered fund, or property. No income test since February 2025. Crypto, gold, art, watches and jewellery do not count as assets",
+        "Highly-Skilled Professional: a contract to work in Thailand in one of fifteen targeted industries, or for a Thai university, research institute or public agency, on the same $80,000 or $40,000 income test. Public-sector hires are exempt from the income test",
+        "Health insurance covering at least $50,000 of medical costs in Thailand with ten months left to run, or Thai social security, or a deposit of at least $100,000 held for twelve months — $25,000 per dependant. Life and travel insurance are not accepted",
+        "Every condition is re-checked before the second five years and must be maintained throughout: the BOI's own page says the visa is revoked if you no longer qualify",
+        "No work permit on the Work-from-Thailand track — you may not earn from a Thai employer on it"
+      ],
+      "steps": [
+        "Apply online at ltr.boi.go.th — the BOI says applications are accepted online only, and the application itself is free",
+        "The BOI screens the file in three working days, then the endorsing agencies have up to twenty working days to decide. You are told the result online",
+        "With the endorsement letter, get the visa within sixty days: at a Royal Thai Embassy or Consulate abroad, or at the One Stop Service Center for Visas and Work Permits in Bangkok. Pay ฿50,000 per person there; posts abroad charge in local currency and usually more",
+        "The stamp says ten years; the permission to stay is five. Before the fifth year ends, re-qualify — the second five years carries no visa fee, and the FAQ asks for the renewal between 120 and 60 days before expiry",
+        "If you will work: apply for the digital work permit after the visa, ฿3,000 a year, issued in three to five working days. Not available on the Work-from-Thailand track",
+        "Report once a year, in person or by proxy, at the One Stop Service Center — form TM.95, within 15 days before or 7 days after the anniversary of your last entry. The TM.30 address notification still applies"
+      ],
+      "faqs": [
+        {
+          "question": "Is the LTR a digital nomad visa?",
+          "answer": "Only for a narrow group. The Work-from-Thailand Professional track is for remote employees of listed companies, or of private companies with $50 million of revenue over three years, earning $80,000 a year. The income floor drops to $40,000 only with a master's degree, intellectual property or $1 million of Series A funding. A freelancer, the founder of a small company, or anyone below those figures does not qualify — and that is most of the people searching for a Thai nomad visa. For them the DTV is the route: no income test, ฿500,000 in accessible funds, five years."
+        },
+        {
+          "question": "What changed in 2025?",
+          "answer": "The cabinet relaxed four things on 13 January 2025 and the BOI put them in force with Announcement Por. 3/2568 on 4 February 2025: the five-year work-experience requirement was dropped from both professional tracks, the employer revenue test fell from $150 million to $50 million and now admits wholly owned subsidiaries, the income requirement for Wealthy Global Citizens was removed, and dependants were extended to parents with no cap. The BOI's public criteria page still showed the old cap of four on 7 September 2026; the announcement is the binding text."
+        },
+        {
+          "question": "Do I pay Thai tax on my foreign income?",
+          "answer": "Not on the Wealthy Global Citizen, Wealthy Pensioner or Work-from-Thailand tracks: Royal Decree 743 exempts income from employment, business or property abroad that you bring into Thailand. Highly-Skilled Professionals are not in that exemption; instead their Thai employment income from a targeted-industry employer is taxed at a flat 17 percent. Every other Thai route we track taxes remitted foreign income once you pass 180 days in a year."
+        },
+        {
+          "question": "Can I work in Thailand on an LTR?",
+          "answer": "On three of the four tracks, with a digital work permit at ฿3,000 a year — and the BOI lets you start while it is being processed. The exception is the Work-from-Thailand track, which gets no work permit: the whole premise is that you earn from outside Thailand."
+        },
+        {
+          "question": "Does the LTR lead to permanent residency?",
+          "answer": "The BOI publishes nothing about it, so this record does not either. Thai permanent residency has its own annual quota and criteria at the Immigration Bureau, and no official page we found says whether LTR years count toward them."
+        }
+      ],
+      "renewable": true,
+      "max_total_years": 10,
+      "pr_path": null,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "SOURCE: the ltr.boi.go.th home page and its visa-issuance page, read 2026-09-07 — \"Permission will be granted to stay in Thailand the first time for five years which can be extended for 5 more years if qualifications are met\", and Immigration \"will grant the permission to stay ... for no more than 5 years\" against a ten-year stamp. Re-qualification before year five is a full re-check, and the same page says the visa \"shall be revoked\" if the conditions are no longer met. The FAQ page puts the renewal window at 120 to 60 days before expiry and says the second validation carries no visa fee. BOI Announcement Por. 4/2568 (18 February 2025) §5 also provides for endorsement beyond the ten years; we record the visa as ten years because that is what is issued, and note a further period as possible rather than promised.",
+      "tax_residency_days": 180,
+      "foreign_income_taxed": false,
+      "special_tax_regime": true,
+      "tax_note": "SOURCE: Royal Decree No. 743 (English text hosted on ltr.boi.go.th), read 2026-09-07. §5 exempts a Wealthy Global Citizen, Wealthy Pensioner or Work-from-Thailand Professional from income tax on assessable income \"derived in the previous tax year from an employment, or from business carried on abroad, or from a property situated abroad, and brought into Thailand\". §3 charges a Highly-Skilled Professional 17 percent on employment income from a targeted-industry employer; that track is not in the §5 exemption. Notification of Income Tax No. 427 conditions both on holding the visa and filing. The 180-day rule is the general Revenue Code test and still decides whether you are resident; the exemption is what stops the remittance rule from biting. foreign_income_taxed is recorded as false for the three exempt tracks — a Highly-Skilled Professional should read it as \"not on foreign income, 17% on Thai salary\".",
+      "dependents_allowed": true,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "SOURCE: BOI Announcement Por. 3/2568 §2.2, read 2026-09-07 — \"the legitimate spouse, parents, and children under 20 years old or legal dependents\", with no cap. ⚠ The public criteria page on ltr.boi.go.th still read \"Maximum 4 dependents in total per one LTR visa holder\" and listed only spouse and children on 7 September 2026, and the dependants document checklist dated 6 November 2025 has no section for parents. The announcement is the binding text; expect the checklist to lag it. Each dependant needs their own $25,000 of health cover and pays the ฿50,000 fee. Same-sex marriages are recognised; unmarried partners are not. A child's visa ends at 20.",
+      "apply_from_abroad": true,
+      "apply_method": "online",
+      "logistics_note": "SOURCES, each read on 2026-09-07: BOI Announcement Por. 3/2568 (4 February 2025, the criteria — the binding text, which repealed Por. 2/2565 and Por. 6/2566) and Por. 4/2568 (18 February 2025, the procedure); the ltr.boi.go.th home page, FAQ, application-timeline, visa-issuance, required-documents and 1-year-reporting pages; the BOI's 2025 brochure; and the BOI press release of 15 January 2025 on the cabinet resolution. The per-category document checklists are dated 6 November 2025.\n\nFEE: ฿50,000 per person per ten-year visa, paid at issuance; the application is free. cost_usd records about $1,400 at the rate used across this dataset. Posts abroad set their own fee in local currency and the FAQ says it is usually higher. The digital work permit is ฿3,000 a year.\n\nTIMING: the home page and Por. 4/2568 §6 both say the endorsement result comes within 20 working days of a complete application; the timeline page splits that as three days of screening plus seventeen. The visa must then be collected within 60 days of the endorsement letter.\n\nWHAT THE 2025 CHANGE DID AND DID NOT DO: the experience rule and the $150 million revenue test are gone from Por. 3/2568, and the brochure says so in as many words; the $1 million asset test for Wealthy Global Citizens remains. The employer test is the part most nomad guides skip — it excludes freelancers and small companies outright, which is why min_income_usd here should be read with the requirements list and not on its own.\n\nWHAT IS NOT CLAIMED: the BOI publishes nothing on permanent residency or citizenship, and nothing on a per-entry stay limit beyond the five-year permission, so those fields stay null.",
+      "official_url": "https://ltr.boi.go.th/",
+      "verified_at": "2026-09-07"
+    },
+    {
       "slug": "thailand-nomad",
       "country_slug": "thailand",
       "country": "Thailand",
@@ -3133,6 +3208,89 @@
       "logistics_note": "Note what Thailand actually tests: not a monthly income figure but ฿500,000 of accessible funds. Applied for at a Thai embassy or consulate; the 180-day extension per entry is then handled at an immigration office inside Thailand.",
       "official_url": "https://www.thaievisa.go.th",
       "verified_at": "2026-07-26"
+    },
+    {
+      "slug": "thailand-privilege",
+      "country_slug": "thailand",
+      "country": "Thailand",
+      "region": "Asia",
+      "page_url": "https://globenomad.com/visa/thailand-privilege",
+      "programme_name": "Privilege Visa (ex-Elite)",
+      "visa_name": "Thailand Privilege Card (Privilege Entry Visa)",
+      "program_status": "open",
+      "summary": "Thailand Privilege is the paid route: a membership sold by a Tourism Authority of Thailand subsidiary that comes with a five-year multiple-entry Privilege Entry visa, one year of stay per entry, and no income, age or education test at all. It was Thailand Elite until October 2023, when the eight old cards were replaced by the tiers sold today — Bronze ฿650,000 for five years up to Reserve ฿5,000,000 for twenty, VAT included, application fee ฿50,000 on top. What the membership does not buy: the right to work, a tax exemption, or a published path to permanent residency. And the 90-day report still applies, whatever the marketing pages say.",
+      "min_income_usd": null,
+      "income_original": "No income test — a membership fee from ฿650,000 buys the stay",
+      "cost_usd": 18200,
+      "max_stay_months": 12,
+      "processing_time": "Background checks by four agencies, 4–6 weeks and lately longer; approval letter within two months, membership active a week after payment",
+      "requirements": [
+        "A membership fee, paid once, by tier: Bronze ฿650,000 for 5 years, Gold ฿900,000 for 5 years, Platinum ฿1,500,000 for 10 years, Diamond ฿2,500,000 for 15 years, Reserve ฿5,000,000 for 20 years and by invitation only. Every figure includes VAT and none is refundable once you are in",
+        "A ฿50,000 application fee, paid by bank transfer before the checks start. It is deducted from the membership fee if you are approved and refunded, minus processing, only if Immigration rejects you — any other withdrawal forfeits it",
+        "No income test, no asset test, no age floor and no employment requirement — the operator's own comparison page says so in as many words. Multi-passport holders are the one group asked for proof of income and source of funds",
+        "A foreign passport with more than a year left and at least three blank pages",
+        "A clean record on the terms' own list: no prison sentence in any country other than for negligence, never adjudicated bankrupt or of unsound mind, not on a watch list, not linked to money laundering or financial crime, and no more than one overstay in Thailand in the past three years",
+        "Approval from all four checking bodies — the Immigration Bureau, the Department of Consular Affairs, the Royal Thai Police's foreign affairs division and the Central Investigation Bureau",
+        "No health insurance is required, and no employment is permitted"
+      ],
+      "steps": [
+        "Choose a tier and apply online at thailandprivilege.co.th, or through one of the operator's authorised agents. Pay the ฿50,000 application fee by bank transfer",
+        "The four-agency background check runs: the operator quoted four to six weeks and, in January 2026, warned that some cases are taking longer. The Department of Consular Affairs issues the approval letter by email, within two months",
+        "Pay the membership fee within 30 days of the invoice or the ฿50,000 is forfeited. The membership is activated within a week of payment",
+        "Have the Privilege Entry visa affixed on arrival at a Thai international airport, at a Royal Thai Embassy or Consulate, or at the Chaeng Watthana Immigration Bureau in Bangkok. It is a five-year multiple-entry visa; on the longer tiers it is re-issued every five years for the rest of the term",
+        "Each entry gives one year. To stay longer without leaving, extend at the provincial immigration office for your residence — ฿1,900, in person, up to 30 days before the stamp expires",
+        "File the 90-day report yourself at Immigration, within 15 days before or 7 after the period ends, or use the operator's passport drop-off service inside your tier's quota. Missing it costs ฿2,000, and 365 consecutive days in Thailand means presenting yourself at the Immigration Bureau"
+      ],
+      "faqs": [
+        {
+          "question": "Is Thailand Privilege the same as Thailand Elite?",
+          "answer": "Yes. Thailand Privilege Card Company Limited was founded in August 2003 with the Tourism Authority of Thailand as its only shareholder and sold the cards as Thailand Elite for twenty years. In October 2023 it dropped the name, phased out the eight old cards and introduced the Gold, Platinum, Diamond and Reserve tiers; Bronze was added later. Old Elite cards keep their terms under new names, so a guide quoting Elite prices is quoting a product that is no longer sold."
+        },
+        {
+          "question": "What does it cost in 2026?",
+          "answer": "Bronze ฿650,000 for five years is the entry price; Gold is ฿900,000 for five, Platinum ฿1,500,000 for ten, Diamond ฿2,500,000 for fifteen and the invitation-only Reserve ฿5,000,000 for twenty. All include VAT, there are no annual fees on the four open tiers, and the ฿50,000 application fee comes off the membership fee once you are approved. The only dollar figure the operator publishes is \"starting at $25,000\", so budget on the baht."
+        },
+        {
+          "question": "Can I work in Thailand on it?",
+          "answer": "No. The operator's own retirement page says the membership \"does not permit employment or formal study in Thailand\", and the terms are silent on work. One of its comparison articles mentions a Flexible Plus route tied to a $1 million investment, but no current package or terms document carries it, so this record does not claim it exists. Working means the Non-B and a work permit, or three of the four LTR tracks."
+        },
+        {
+          "question": "Do I still have to do 90-day reports?",
+          "answer": "Yes. One marketing page says there is no 90-day requirement; the operator's FAQ says members must report themselves at Immigration, the application form has you declare that you know the duty, and the fine is ฿2,000. What the membership buys is a passport drop-off service that files it for you, four times a year on the higher tiers. Read the form, not the brochure."
+        },
+        {
+          "question": "Can I add my spouse, children or parents?",
+          "answer": "On Platinum, Diamond and Reserve, and not on Bronze or Gold. Immediate family means a parent or step-parent, a married spouse or a civil-union partner with a certificate, and children including legally adopted ones, with no age cap. The regular add-on fee is ฿1,000,000 on Platinum, ฿1,500,000 on Diamond and ฿2,000,000 on Reserve; a promotion running until 30 September 2026 sets it at ฿750,000 flat. The operator's family page still quotes ฿500,000, which is the previous promotion."
+        },
+        {
+          "question": "Is it cheaper than the DTV?",
+          "answer": "Not on the visa. The DTV costs ฿10,000 for the same five years, needs ฿500,000 in accessible funds and gives 180 days per entry; Bronze costs ฿650,000, needs nothing but the fee, and gives a year per entry plus airport and immigration services. Privilege is the answer for someone who cannot or will not show funds or a course and can afford not to."
+        },
+        {
+          "question": "Does it lead to permanent residency?",
+          "answer": "The operator publishes nothing about permanent residency or citizenship, so this record does not either. It also states that the membership carries no tax advantage — the general Thai rule applies, and 180 days in a calendar year makes you a tax resident."
+        }
+      ],
+      "renewable": false,
+      "max_total_years": 5,
+      "pr_path": null,
+      "pr_after_years": null,
+      "citizenship_path": null,
+      "citizenship_after_years": null,
+      "renewal_note": "SOURCE: the terms and conditions of each tier, served from mis.thailandprivilege.co.th and linked from the operator's card API, read 2026-09-07 — Bronze form B_N2024_001, Gold G_N2025_001, Platinum P_C2023_001, Diamond D_C2023_001, Reserve R_C2023_001. Each fixes the membership term (clause 2.3 or 2.4: five, five, ten, fifteen and twenty years) and lists no renewal fee for the four open tiers, only an upgrade fee — ฿100,000 (฿150,000 from Bronze) plus the price difference, with notice six months before the term ends. Only Reserve renews: clause 2.6, five years at a time for ten percent of the prevailing fee. Recorded as not renewable because that is what the terms say for every tier a reader can actually buy; whether a lapsed member may purchase a new membership is not published. max_total_years records 5 — the Bronze and Gold term, and the validity of the visa sticker on every tier — so that it describes the same tier cost_usd does; the ten-, fifteen- and twenty-year terms are in the requirements. The visa itself is a five-year multiple-entry sticker, re-issued within the term on the longer tiers, with one year of stay per entry and in-country extension at ฿1,900.",
+      "tax_residency_days": 180,
+      "foreign_income_taxed": true,
+      "special_tax_regime": false,
+      "tax_note": "SOURCE: the operator's own LTR comparison page, read 2026-09-07 — \"Thailand Privilege does not provide tax advantages\" — and nothing else; it publishes no tax guidance at all. So the general rule applies, the same one every other Thai route on this site carries: 180 days in a calendar year makes you a Thai tax resident, not the 183 most countries use, and foreign income earned since 1 January 2024 is taxable when you remit it into Thailand. A member who stays the full year on the visa is over that line.",
+      "dependents_allowed": true,
+      "spouse_income_add_usd": null,
+      "child_income_add_usd": null,
+      "family_note": "SOURCE: the next-member terms for Platinum, Diamond and Reserve and the operator's family-benefits page, read 2026-09-07. Immediate Family Member is defined as \"a biological parent, step-parent, married spouse, civil union partner (with certificate legally issued by relevant authority), or children and legally adopted children of the Member\"; the family page adds that same-sex spouses recognised under Thai law qualify and that no age cap or medical screening applies. Bronze and Gold have no next-member terms at all. Regular fees, VAT included: ฿1,000,000 on Platinum, ฿1,500,000 on Diamond, ฿2,000,000 on Reserve. A promotion dated 14 August 2026 sets ฿750,000 flat until 30 September 2026; two older pages on the site still show ฿500,000, the previous offer, which is why this record cites the dated notice and not the articles.",
+      "apply_from_abroad": true,
+      "apply_method": "online",
+      "logistics_note": "SOURCES, each read on 2026-09-07: the operator's card list API and the /thailandprivilegecard page (tiers and prices), the five tier terms-and-conditions PDFs (fees, VAT, eligibility clause 6, transfer, refund), the qualifications and declaration sheets on the application forms, the /living-in-thailand FAQ, the 90-day-report and stay-extension pages, the membership-fee announcement of 18 January 2024, the fee-exemption notice covering 1 September to 31 December 2024, the background-check delay notice of 7 January 2026, the next-member promotion of 14 August 2026, and the /about history page. cost_usd and max_total_years both describe Bronze, the cheapest tier — about $18,200 at the rate used across this dataset, for five years; the operator's only dollar figure is \"starting at $25,000\", which predates Bronze.\n\n⚠ THE MARKETING PAGES CONTRADICT THE TERMS IN THREE PLACES, and this record follows the terms and the dated notices: (1) one comparison page says there is no 90-day reporting duty; the FAQ, the form's own declaration and the reporting page say there is. (2) One article says members can work through a Flexible Plus route on a $1 million investment; the retirement page says the membership permits no employment, and no current package or terms document mentions Flexible Plus. (3) The family page prices the add-on at ฿500,000; the dated 2026 notice says ฿750,000 until 30 September 2026.\n\nNOT A VISA: the operator also sells a Thailand Privilege Pass (Lite ฿9,900 to Corporate ฿500,000, one year) that carries no visa at all. It shares the brand and the website; it is not this record.\n\nWHAT IS NOT CLAIMED: nothing is published on permanent residency, citizenship, nationality restrictions or re-entry permits, and the exact launch day of the October 2023 relaunch is not stated on any official page, so none of that appears here.",
+      "official_url": "https://www.thailandprivilege.co.th/thailandprivilegecard",
+      "verified_at": "2026-09-07"
     },
     {
       "slug": "thailand-retirement",
@@ -3222,7 +3380,7 @@
       "programme_name": "Work Visa (Non-B)",
       "visa_name": "Non-Immigrant Visa B (Business and Work)",
       "program_status": "open",
-      "summary": "The Non-B is the only route on this page that lets you legally earn money inside Thailand — and it is the one where the hard requirements are not yours. Before a consulate will issue it you need a letter of approval from the Thai Ministry of Labour, which your employer obtains; after you land you apply separately for the work permit that actually authorises the work. The visa is permission to enter, not permission to work, and people conflate the two constantly. Practitioners publish an employer test of ฿2 million registered capital and four Thai employees per foreigner, which is what rules out most small companies — we could not verify that figure on a government page and say so below rather than dressing it up.",
+      "summary": "The Non-B is the route built for earning money inside Thailand — the LTR's skilled-professional track is the only other Thai route that comes with a work permit, and it needs an employer in a targeted industry — and it is the one where the hard requirements are not yours. Before a consulate will issue it you need a letter of approval from the Thai Ministry of Labour, which your employer obtains; after you land you apply separately for the work permit that actually authorises the work. The visa is permission to enter, not permission to work, and people conflate the two constantly. Practitioners publish an employer test of ฿2 million registered capital and four Thai employees per foreigner, which is what rules out most small companies — we could not verify that figure on a government page and say so below rather than dressing it up.",
       "min_income_usd": null,
       "income_original": "฿20,000 per person / ฿40,000 per family in accessible funds",
       "cost_usd": 61,

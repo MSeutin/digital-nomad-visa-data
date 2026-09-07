@@ -3,6 +3,20 @@
 Dated, breaking-change-first. If you hold an older copy of `data/visas.json`, read the entry for
 the date you downloaded it and everything above.
 
+## 2026-09-07 — two more Thai programmes (rows added, no shape change)
+
+**Baseline: the previous public file held 51 records across 46 countries.** Nothing about the
+shape changed: same fields, same `slug` and `country_slug` semantics, no slug renamed or removed.
+
+### What changed
+
+- **Thailand gains two records.** `thailand-ltr` (the Long-Term Resident visa, all four tracks,
+  sourced on BOI Announcement Por. 3/2568 of February 2025) and `thailand-privilege` (the paid
+  Thailand Privilege membership, formerly Elite). Both had been listed on `/visa/thailand` as
+  "not researched" since 2026-08-27; they are now researched rows. `country_slug: "thailand"`
+  now groups six records.
+- **Record count 51 → 53.** Country count unchanged at 46.
+
 ## 2026-08-27 — one row per programme (shape change)
 
 **Baseline: the previous public file, pushed 2026-08-24, held 45 records, one per country.**

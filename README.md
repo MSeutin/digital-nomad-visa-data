@@ -1,6 +1,6 @@
 ---
 license: cc-by-4.0
-pretty_name: Digital Nomad & Long-Stay Visa Dataset (51 programmes, 46 countries, sourced & dated)
+pretty_name: Digital Nomad & Long-Stay Visa Dataset (53 programmes, 46 countries, sourced & dated)
 language:
   - en
 size_categories:

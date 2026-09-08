@@ -3,6 +3,25 @@
 Dated, breaking-change-first. If you hold an older copy of `data/visas.json`, read the entry for
 the date you downloaded it and everything above.
 
+## 2026-09-08 — the Philippines' primary row relabelled (one value, no shape change)
+
+**Baseline: the previous public file held 53 records across 46 countries.** Same fields, same
+`slug` and `country_slug` semantics, record count unchanged, no slug renamed or removed.
+
+### What changed
+
+- **`philippines.programme_name` is now `"Retirement Visa (SRRV Classic)"`.** It read
+  `"Special Resident Retiree's Visa (SRRV Classic)"` — the row had no programme label of its
+  own, so `visa_name` was copied through. Internally the row was also filed as the country's
+  nomad route (the pre-August assumption that every primary record is one); it is a retirement
+  visa, and the Philippines' nomad route is the separate `philippines-digital-nomad` row,
+  unchanged. `visa_name`, `slug` and every other field are as they were.
+
+### Migrating
+
+- Nothing, unless you display `programme_name` — in which case the Philippines label got shorter
+  and stopped duplicating `visa_name`.
+
 ## 2026-09-07 — two more Thai programmes (rows added, no shape change)
 
 **Baseline: the previous public file held 51 records across 46 countries.** Nothing about the

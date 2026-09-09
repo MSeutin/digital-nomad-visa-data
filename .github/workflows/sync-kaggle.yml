@@ -1,0 +1,92 @@
+name: sync-kaggle
+
+# Mirrors this repo to the Kaggle dataset as a new version on every push that
+# changes what ships, the way sync-huggingface.yml does for Hugging Face.
+#
+# GitHub is the source of truth; Kaggle is a copy that follows it. Kaggle has no
+# "sync from Git" feature, so without this job every correction to a record
+# would need a hand upload — which is how a public copy goes stale (the 45-row
+# Hugging Face file sat a month behind before the HF job existed, 2026-08).
+#
+# What goes up: the canonical JSON, the docs, plus a visas.csv of the scalar
+# columns generated here — Kaggle's preview and most notebooks want a table,
+# and the CSV is a build artefact of the JSON, never edited by hand.
+#
+# The dataset itself: https://www.kaggle.com/datasets/frenchmike/digital-nomad-visa-dataset-53-sourced-programmes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "README.md"
+      - "SCHEMA.md"
+      - "CHANGELOG.md"
+      - "kaggle/**"
+  workflow_dispatch: {} # manual re-sync — use after rotating the token
+
+concurrency:
+  group: sync-kaggle
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # >= 1.8 is the first CLI that accepts KAGGLE_API_TOKEN (the per-token
+      # credentials Kaggle recommends over the legacy kaggle.json key pair).
+      - name: Install the Kaggle CLI
+        run: pip install --quiet "kaggle>=1.8"
+
+      # The bundle is what Kaggle receives. dataset-metadata.json names the
+      # target; the CLI refuses to version a directory without it.
+      - name: Build the Kaggle bundle
+        run: |
+          mkdir -p kaggle-bundle
+          cp data/visas.json README.md SCHEMA.md CHANGELOG.md kaggle-bundle/
+          cp kaggle/dataset-metadata.json kaggle-bundle/
+          python3 kaggle/make_csv.py data/visas.json kaggle-bundle/visas.csv
+          ls -la kaggle-bundle
+
+      # ⚠️ The token is a Kaggle API token named "github-actions sync-kaggle" on
+      # the frenchmike account (kaggle.com/settings/api). Kaggle tokens have no
+      # per-dataset scope, so it can act as the whole account — revoke it there
+      # if it ever leaks; the secret here is the only place it lives.
+      - name: Push a new version to Kaggle
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          if [ -z "$KAGGLE_API_TOKEN" ]; then
+            echo "::error::KAGGLE_API_TOKEN secret is not set — the Kaggle copy is NOT in sync"
+            exit 1
+          fi
+          msg="$(git log -1 --pretty=%s | cut -c1-200)"
+          kaggle datasets version -p kaggle-bundle -m "$msg"
+
+      # `datasets version` returns before Kaggle finishes processing. A version
+      # that fails validation stays invisible unless someone looks, so wait for
+      # "ready" and fail loudly otherwise.
+      - name: Wait for Kaggle to finish processing
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          slug=$(python3 -c "import json;print(json.load(open('kaggle/dataset-metadata.json'))['id'])")
+          for i in $(seq 1 24); do
+            status=$(kaggle datasets status "$slug" 2>/dev/null || true)
+            echo "attempt $i: $status"
+            case "$status" in
+              *ready*) echo "Kaggle version is live."; exit 0 ;;
+              *error*) echo "::error::Kaggle reported an error processing the new version"; exit 1 ;;
+            esac
+            sleep 5
+          done
+          echo "::error::Kaggle did not report ready within two minutes"
+          exit 1

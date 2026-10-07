@@ -3,6 +3,26 @@
 Dated, breaking-change-first. If you hold an older copy of `data/visas.json`, read the entry for
 the date you downloaded it and everything above.
 
+## 2026-10-07 — Ecuador corrected against the official procedure page (values only, no shape change)
+
+**Baseline: the previous public file held 53 records across 46 countries.** Same fields, same
+`slug` and `country_slug` semantics, record count unchanged, no slug renamed or removed.
+
+### What changed
+
+- **`ecuador.cost_usd` is now `320`** ($50 application + $270 grant). It read `450`.
+- **Validity is now "up to two years, renewable once".** `max_total_years` is `4` (was `null`);
+  `renewal_note` and `steps` said 12 months plus one renewal in one place and two-year blocks
+  with no limit in another.
+- **`ecuador.apply_method` is now `"online"`** (was empty). You file on e-VISAS, from abroad or
+  from inside Ecuador with legal status; `steps` no longer say to apply at a consulate before entry.
+- **`ecuador.official_url`** now points at the Foreign Ministry's procedure page on gob.ec. It was
+  the Cancillería homepage. `verified_at` is `2026-10-07`.
+
+### Migrating
+
+Nothing to do unless you cached Ecuador's fee, validity or application route.
+
 ## 2026-09-08 — the Philippines' primary row relabelled (one value, no shape change)
 
 **Baseline: the previous public file held 53 records across 46 countries.** Same fields, same

@@ -7,7 +7,7 @@
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "GlobeNomad Visa Dataset — https://globenomad.com",
   "null_means": "null means the government has not published this rule. It never means \"no\".",
-  "last_verified_at": "2026-09-07",
+  "last_verified_at": "2026-10-07",
   "record_count": 53,
   "records": [
     {
@@ -958,10 +958,10 @@
       "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
-      "summary": "Ecuador packs the Andes, Amazon, Pacific coast, and the Galápagos into a compact, US-dollar economy with a low cost of living. Its digital nomad visa asks for a modest ~$1,446/month, doesn't tax foreign income, and leads to up to two years of legal residency. You apply from a consulate before you arrive.",
+      "summary": "Ecuador packs the Andes, Amazon, Pacific coast, and the Galápagos into a compact, US-dollar economy with a low cost of living. Its digital nomad visa asks for a modest ~$1,446/month, doesn't tax foreign income, and grants up to two years of residency, renewable once. You apply online, from abroad or from inside Ecuador as a tourist.",
       "min_income_usd": 1446,
       "income_original": "$1,446 per month (3× the Ecuadorian minimum wage)",
-      "cost_usd": 450,
+      "cost_usd": 320,
       "max_stay_months": 24,
       "processing_time": "2–4 weeks",
       "requirements": [
@@ -974,9 +974,9 @@
       "steps": [
         "Confirm your income meets the ~$1,446/month threshold over the prior three months",
         "Gather documents: passport, proof of foreign income/employment, health insurance, criminal record",
-        "Book a visa appointment at an Ecuadorian embassy or consulate — you must apply before entering Ecuador",
-        "Attend the appointment to verify your identity and documents, and pay the visa fees (about $450)",
-        "Receive the visa, valid 12 months and renewable for a second year (two years total)"
+        "Open an account on e-VISAS, the Foreign Ministry's online visa platform, and file the application there with your passport details, photo and documents — from abroad, or from inside Ecuador if you're there legally (on a tourist stay or another valid visa)",
+        "Pay the $50 application fee as soon as the application is registered (an unpaid one is deleted), then the $270 grant fee when the visa is issued — $320 in total",
+        "Receive the visa, valid for up to two years and renewable once"
       ],
       "faqs": [
         {
@@ -989,20 +989,20 @@
         },
         {
           "question": "Do I apply before arriving?",
-          "answer": "Yes. You must apply at an Ecuadorian consulate in your country of residence before entering Ecuador; it's not an on-arrival visa."
+          "answer": "No, you don't have to. The application is made only online, through the Foreign Ministry's e-VISAS platform, so you can file from abroad or from inside Ecuador. If you're already in the country you must be there legally — on a tourist stay or another valid visa."
         },
         {
           "question": "How long can I stay?",
-          "answer": "12 months initially, renewable for another year — up to two years on the digital nomad visa."
+          "answer": "Up to two years, renewable once — four years at most on the digital nomad visa."
         }
       ],
       "renewable": true,
-      "max_total_years": null,
+      "max_total_years": 4,
       "pr_path": true,
       "pr_after_years": 2,
       "citizenship_path": true,
       "citizenship_after_years": 5,
-      "renewal_note": "Two years, renewable in two-year blocks for as long as you still qualify — and unusually among nomad routes, it genuinely settles you. Permanent residency opens at 21 months of physical residence, and naturalisation after roughly three further years of permanent residency. The constraint is presence, not paperwork: as a temporary resident you may be outside Ecuador no more than 90 days per calendar year, and unused days don't roll over. That rules it out as a base for heavy travellers.",
+      "renewal_note": "Up to two years, renewable once — four years at most on this visa — and unusually among nomad routes, it genuinely settles you. Permanent residency opens at 21 months of physical residence, and naturalisation after roughly three further years of permanent residency. The constraint is presence, not paperwork: as a temporary resident you may be outside Ecuador no more than 90 days per calendar year, and unused days don't roll over. That rules it out as a base for heavy travellers.",
       "tax_residency_days": 183,
       "foreign_income_taxed": false,
       "special_tax_regime": true,
@@ -1012,10 +1012,10 @@
       "child_income_add_usd": null,
       "family_note": "",
       "apply_from_abroad": null,
-      "apply_method": "",
+      "apply_method": "online",
       "logistics_note": "",
-      "official_url": "https://www.cancilleria.gob.ec",
-      "verified_at": "2026-07-26"
+      "official_url": "https://www.gob.ec/mremh/tramites/concesion-visa-residencia-temporal-rentista-trabajo-remoto-visa-nomada",
+      "verified_at": "2026-10-07"
     },
     {
       "slug": "el-salvador",

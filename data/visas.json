@@ -7,7 +7,7 @@
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "GlobeNomad Visa Dataset — https://globenomad.com",
   "null_means": "null means the government has not published this rule. It never means \"no\".",
-  "last_verified_at": "2026-10-07",
+  "last_verified_at": "2026-11-13",
   "record_count": 53,
   "records": [
     {
@@ -1896,7 +1896,7 @@
       "programme_name": "Digital Nomad Visa",
       "visa_name": "Digital Nomad Visa",
       "program_status": "open",
-      "summary": "Montenegro packs Adriatic coastline, mountains, and a low cost of living into a small, scenic Balkan country. Its digital nomad visa allows up to four years total and exempts your foreign income from local tax. One important caveat: the program is currently scheduled to end on 31 December 2026, so confirm it's still open before you plan around it.",
+      "summary": "Montenegro packs Adriatic coastline, mountains, and a low cost of living into a small, scenic Balkan country. Its digital nomad visa allows up to four years total, but don't count on a tax break: we found no nomad-specific exemption, and residents are taxed on worldwide income. The current law sets no end date for the program. Some guides cite 31 December 2026; we found no legal basis for it.",
       "min_income_usd": 1950,
       "income_original": "",
       "cost_usd": null,
@@ -1908,23 +1908,24 @@
         "Valid passport",
         "Health insurance valid in Montenegro",
         "A rental agreement for accommodation in Montenegro",
-        "Clean criminal record, certified and translated into Montenegrin"
+        "Clean criminal record, certified and translated into Montenegrin",
+        "Proof that the company you work for (or your own company) is registered in another country"
       ],
       "steps": [
-        "Check the program is still open — it's currently scheduled to end 31 December 2026",
+        "Confirm the current rules with Montenegro's Ministry of Interior — the law sets no end date, though some guides cite 31 December 2026",
         "Confirm your income clears the threshold for your education level (~€1,800 or ~€2,400/month)",
-        "Gather documents: passport, proof of remote work, health insurance, rental agreement, translated criminal record",
-        "Apply through Montenegro's official portal at digitalnomads.gov.me",
+        "Gather documents: passport, proof of remote work, proof your company is registered in another country, health insurance, rental agreement, translated criminal record",
+        "Apply in person at the Ministry of Interior office where you're staying, while legally in Montenegro (on a D visa or a visa-free entry), or online through the Ministry's information system and then report to that office in person within 10 days of entering Montenegro for photo and fingerprints — the digitalnomads.gov.me portal exists but often doesn't load from abroad",
         "Processing runs about 9–12 weeks; the permit allows up to 2 years, renewable once for 4 years total"
       ],
       "faqs": [
         {
           "question": "Is the Montenegro nomad visa ending?",
-          "answer": "As of 2026 the program is scheduled to end on 31 December 2026. It may be extended, but confirm its status on the official portal before making plans — don't assume it'll still be open later in the year."
+          "answer": "Not as far as the law shows. The current Law on Foreigners sets no end date for the digital nomad permit. Some guides cite 31 December 2026; we found no legal basis for it. Rules can still change, so confirm the current position with the Ministry of Interior before making plans."
         },
         {
           "question": "Will I pay tax on the visa?",
-          "answer": "No — digital nomad visa holders are exempt from Montenegrin income tax on foreign earnings. You may still owe tax in your home country depending on your citizenship and time abroad."
+          "answer": "Possibly — we found no published tax exemption for digital nomads, so don't assume one. Montenegrin residents are taxed on worldwide income, and passing 183 days in a year normally makes you resident. Confirm the current position with Montenegro's tax authority before you plan around it. You may also still owe tax in your home country depending on your citizenship and time abroad."
         },
         {
           "question": "How long can I stay?",
@@ -1932,7 +1933,7 @@
         },
         {
           "question": "How do I apply?",
-          "answer": "Through the official government portal at digitalnomads.gov.me. The full process — from consultation to residence permit — typically takes 9–12 weeks."
+          "answer": "In person, on the official form, at the Ministry of Interior office in the place you're staying, while you're legally in Montenegro (on a long-stay D visa or a visa-free entry). Since January 2026 the law also lets you file online through the Ministry's information system, as long as you report to that office within 10 days of entering Montenegro to give your photo, fingerprints and signature. The digitalnomads.gov.me portal exists but often doesn't load from abroad. The full process typically takes 9–12 weeks."
         }
       ],
       "renewable": true,
@@ -1941,7 +1942,7 @@
       "pr_after_years": null,
       "citizenship_path": false,
       "citizenship_after_years": null,
-      "renewal_note": "Up to two years, renewable once — four years maximum, and then it ends. The part that catches people: those four years count for nothing toward permanent residence, which needs five continuous years of ordinary temporary residence. If settling is the goal you have to switch to a standard route (company, property, employment, family) early rather than late. Note too that the programme itself is currently legislated only to 31 December 2026, with no extension confirmed — anyone planning around it should confirm the scheme still exists before committing.",
+      "renewal_note": "Up to two years, renewable once — four years maximum, and then it ends. The part that catches people: those four years count for nothing toward permanent residence, which needs five continuous years of ordinary temporary residence. If settling is the goal you have to switch to a standard route (company, property, employment, family) early rather than late. Note too that some guides say the programme ends on 31 December 2026; the current law sets no end date, and we found no legal basis for that claim — but confirm the scheme's status before committing.",
       "tax_residency_days": 183,
       "foreign_income_taxed": true,
       "special_tax_regime": null,
@@ -1953,8 +1954,8 @@
       "apply_from_abroad": null,
       "apply_method": "",
       "logistics_note": "",
-      "official_url": "https://digitalnomads.gov.me",
-      "verified_at": "2026-07-26"
+      "official_url": "https://www.sluzbenilist.me/propisi/389913?page=12",
+      "verified_at": "2026-11-13"
     },
     {
       "slug": "namibia",

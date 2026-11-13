@@ -3,6 +3,38 @@
 Dated, breaking-change-first. If you hold an older copy of `data/visas.json`, read the entry for
 the date you downloaded it and everything above.
 
+## 2026-11-13 — Montenegro re-sourced to the Official Gazette (values only, no shape change)
+
+**Baseline: the previous public file held 53 records across 46 countries.** Same fields, same
+`slug` and `country_slug` semantics, record count unchanged, no slug renamed or removed.
+
+### What changed
+
+- **`montenegro.official_url`** now points at the Law on Foreigners amendment that sets the current
+  digital nomad article (Article 60a, Official Gazette of Montenegro no. 3/2026) on sluzbenilist.me.
+  It was `https://digitalnomads.gov.me`, which has stopped loading from outside Montenegro.
+  `verified_at` is `2026-11-13`.
+- **Tax wording no longer contradicts itself.** `summary` and the tax FAQ said the visa exempts
+  foreign income from Montenegrin tax, while `tax_note` and `foreign_income_taxed: true` said no
+  such exemption could be confirmed. Both now match `tax_note`: no confirmed nomad-specific
+  exemption, worldwide income taxed once resident.
+- **`steps` and the "How do I apply?" FAQ** now say you apply in person at the Ministry of
+  Interior office where you are staying (or online, then report within 10 days of arriving),
+  instead of through the portal.
+- **The "ends 31 December 2026" claim is gone.** `summary`, `steps`, the "Is it ending?" FAQ and
+  `renewal_note` said the programme was legislated only to that date. The Law on Foreigners as
+  amended to date (including 3/2026 and 154/2026) sets no end date for the digital nomad permit,
+  and we found no legal basis for the claim, so those fields now say so.
+- **`requirements` gains one item:** proof that the company you work for (or your own company) is
+  registered in another country, which Article 60a has required since the 3/2026 amendment. The
+  document list in `steps` names it too.
+- **`last_verified_at` is `2026-11-13`.**
+
+### Migrating
+
+Nothing to do unless you cached Montenegro's source link, tax answer, application route, end date
+or requirements list. `requirements` is an array, so its length for this record grew by one.
+
 ## 2026-10-07 — Ecuador corrected against the official procedure page (values only, no shape change)
 
 **Baseline: the previous public file held 53 records across 46 countries.** Same fields, same
